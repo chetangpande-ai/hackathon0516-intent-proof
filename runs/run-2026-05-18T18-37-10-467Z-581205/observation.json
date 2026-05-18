@@ -1,0 +1,724 @@
+{
+  "runId": "run-2026-05-18T18-37-10-467Z-581205",
+  "observation": {
+    "title": "Home Loan - Apply Housing Loan Online upto ₹10 Crore*",
+    "url": "https://homeloans.hdfc.bank.in/housing-loans/home-loans?utm_source=chatgpt.com",
+    "headings": [
+      "Home Loans",
+      "Home Loan EMI Calculator",
+      "Home Loan Interest Rates",
+      "All rates are benchmarked to Policy Repo Rate. Current applicable Repo Rate = 5.25%",
+      "Home Loan Calculators",
+      "Existing Loan",
+      "Loan from HDFC Bank Home Loans",
+      "Documents for Home Loan",
+      "For Purchase of a New Home",
+      "For Purchase of a Resale Home",
+      "For Constructing a Home on a N.A. Plot",
+      "Home Loan Charges"
+    ],
+    "buttons": [
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Close",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Close",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": "button"
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "What is Home Loan?",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "How do I apply for a House loan?",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "What is the maximum home loan that I can obtain?",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "What is the Eligibility Criteria to avail Home Loan from HDFC Bank?",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Do I get tax benefits on my housing loan?",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "When can I take disbursement of the home loan?",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "What are the factors that determine home loan eligibility?",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "How will HDFC Bank decide the home loan amount i am eligible for?",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      }
+    ],
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "hidden",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "text": "English हिंदी मराठी తెలుగు தமிழ் ಕನ್ನಡ മലയാളം",
+        "testId": "",
+        "name": "language select",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "range",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "range",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "range",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "text": "calFormName",
+        "testId": "",
+        "name": "calFormName",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "text": "calFormId",
+        "testId": "",
+        "name": "calFormId",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "text": "for-datalayer-formid",
+        "testId": "",
+        "name": "for-datalayer-formid",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "text": "for-datalayer-formname",
+        "testId": "",
+        "name": "for-datalayer-formname",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "range",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "range",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "range",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "range",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "text": "calFormName",
+        "testId": "",
+        "name": "calFormName",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "text": "calFormId",
+        "testId": "",
+        "name": "calFormId",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "range",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "range",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "Pre-verified Properties",
+        "href": "https://homeloans.hdfc.bank.in/project-search"
+      },
+      {
+        "text": "Blogs",
+        "href": "https://homeloans.hdfc.bank.in/blog"
+      },
+      {
+        "text": "",
+        "href": "https://homeloans.hdfc.bank.in/content/housingdevelopmentfinancecorp/in/en"
+      },
+      {
+        "text": "Home Loan Products",
+        "href": "https://homeloans.hdfc.bank.in/housing-loans/home-loans?utm_source=chatgpt.com#"
+      },
+      {
+        "text": "Housing Loans",
+        "href": "https://homeloans.hdfc.bank.in/housing-loans"
+      },
+      {
+        "text": "Home Loans",
+        "href": "https://homeloans.hdfc.bank.in/housing-loans/home-loans"
+      },
+      {
+        "text": "Plot Loans",
+        "href": "https://homeloans.hdfc.bank.in/housing-loans/plot-loans"
+      },
+      {
+        "text": "Rural Housing Loans",
+        "href": "https://homeloans.hdfc.bank.in/housing-loans/rural-housing-loans"
+      },
+      {
+        "text": "House Renovation Loans",
+        "href": "https://homeloans.hdfc.bank.in/housing-loans/home-renovation-loans"
+      },
+      {
+        "text": "Home Extension Loans",
+        "href": "https://homeloans.hdfc.bank.in/housing-loans/home-extension-loan"
+      },
+      {
+        "text": "Top Up Loans",
+        "href": "https://homeloans.hdfc.bank.in/housing-loans/top-up-loans"
+      },
+      {
+        "text": "Non Housing Loans",
+        "href": "https://homeloans.hdfc.bank.in/non-housing-loans"
+      },
+      {
+        "text": "Loan Against Property",
+        "href": "https://www.hdfc.bank.in/loan-against-property?mc_id=website_organic_bp_hdfcltd_menu_LAP&icid=website_organic_bp_hdfcltd_menu_LAP"
+      },
+      {
+        "text": "Home Loan Balance Transfer",
+        "href": "https://homeloans.hdfc.bank.in/home-loan-balance-transfer"
+      },
+      {
+        "text": "NRI Housing Loans",
+        "href": "https://homeloans.hdfc.bank.in/nri-loans"
+      },
+      {
+        "text": "United Kingdom",
+        "href": "https://homeloans.hdfc.bank.in/nri-locations/united-kingdom"
+      },
+      {
+        "text": "Other Locations",
+        "href": "https://homeloans.hdfc.bank.in/nri-locations/other-locations"
+      },
+      {
+        "text": "Pradhan Mantri Awas Yojana (Urban) 2.0 - PMAY (U) 2.0",
+        "href": "https://homeloans.hdfc.bank.in/housing-loans/pradhan-mantri-awas-yojana-urban-2-0"
+      },
+      {
+        "text": "",
+        "href": "https://homeloans.hdfc.bank.in/project-search"
+      },
+      {
+        "text": "Checklist & Calculators",
+        "href": "https://homeloans.hdfc.bank.in/housing-loans/home-loans?utm_source=chatgpt.com#"
+      }
+    ],
+    "forms": [
+      {
+        "testId": "",
+        "labels": [
+          "Enter Your Full Name",
+          "Mobile Number",
+          "Enter Your Email Id",
+          "Pincode",
+          "Form Name",
+          "Disclaimer",
+          "I declare that the information I have provided is accurate & complete to the best of my knowledge. I hereby authorize HDFC Bank and its affiliates to call, email, send a text through the Short messaging Service (SMS) and/or Whatsapp me in relation to any of their products. The consent herein shall override any registration for DNC/NDNC."
+        ]
+      },
+      {
+        "testId": "",
+        "labels": [
+          "Enter Your Full Name",
+          "Country",
+          "Our Offices In Middle East",
+          "Country Code",
+          "Area Code Of Mobile",
+          "Mobile Number",
+          "Enter Your Email Id",
+          "Location Of Property",
+          "Form Name",
+          "Disclaimer",
+          "I declare that the information I have provided is accurate & complete to the best of my knowledge. I hereby authorize HDFC Bank and its affiliates to call, email, send a text through the Short messaging Service (SMS) and/or Whatsapp HDFC Bank me in relation to any of their products. The consent herein shall override any registration for DNC/NDNC."
+        ]
+      },
+      {
+        "testId": "",
+        "labels": [
+          "Enter Your Full Name",
+          "Mobile Number",
+          "Enter Your Email Id",
+          "Pincode",
+          "Disclaimer",
+          "I declare that the information I have provided is accurate & complete to the best of my knowledge. I hereby authorize HDFC Bank and its affiliates to call, email, send a text through the Short messaging Service (SMS) and/or Whatsapp me in relation to any of their products. The consent herein shall override any registration for DNC/NDNC."
+        ]
+      },
+      {
+        "testId": "",
+        "labels": [
+          "Enter Your Full Name",
+          "Country",
+          "Our Offices In Middle East",
+          "Country Code",
+          "Area Code Of Mobile",
+          "Mobile Number",
+          "Pincode",
+          "Enter Your Email Id",
+          "Location Of Property",
+          "Disclaimer",
+          "I declare that the information I have provided is accurate & complete to the best of my knowledge. I hereby authorize HDFC Bank and its affiliates to call, email, send a text through the Short messaging Service (SMS) and/or Whatsapp me in relation to any of their products. The consent herein shall override any registration for DNC/NDNC."
+        ]
+      },
+      {
+        "testId": "",
+        "labels": []
+      },
+      {
+        "testId": "",
+        "labels": []
+      },
+      {
+        "testId": "",
+        "labels": []
+      }
+    ],
+    "visibleTextSample": "+91 9289200017 - For New Home Loans | Get an instant call back English हिंदी मराठी తెలుగు தமிழ் ಕನ್ನಡ മലയാളം Pre-verified Properties Blogs Home Loan Products Checklist & Calculators Banking Products Deposits Search Login HDFC Bank Housing Loans Home Loans Home Loans At HDFC Bank, we understand that a home loan is not just a financial transaction. It is much more than that. It is a warm little corner of the world that is yours, tailored to your tastes and needs. It is the place where you celebrate the joys, deal with the sorrows, and enjoy the journey called life. There is no place like home, and with HDFC Bank Home Loans, you can gather hopes, achieve your dreams, and create memories in your own space. Apply Online Home Loan EMI Calculator Loan Amount ₹ ₹1 Lac ₹10 Cr Tenure (Years) 1 30 Interest Rate (% P.A.) % 0.5 15 Monthly Home Loan EMI ₹17,910 Principal Amount ₹25,00,000 Interest Amount ₹39,47,710 Total Amount Payable ₹64,47,710 Request Call Back Rates & Offers Calculators Documents Fees & Charges Rates offered to Customer (Past Quarter) FAQ & More Home Loan Interest Rates All rates are benchmarked to Policy Repo Rate. Current applicable Repo Rate = 5.25% Special Housing Loan R"
+  },
+  "screenshotPath": "/runs/run-2026-05-18T18-37-10-467Z-581205/screenshots/observe.png",
+  "rawScriptPath": "runs/run-2026-05-18T18-37-10-467Z-581205/raw-crawl.spec.js",
+  "reasoningTrace": [
+    "Opened https://www.hdfc.com/housing-loans/home-loans with Playwright and captured the loaded page state.",
+    "Observed 7 forms, 30 inputs, 30 buttons, and 20 links.",
+    "Mapped observation to 6 human-approved QA intents before test generation."
+  ]
+}

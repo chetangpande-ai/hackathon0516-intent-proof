@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ADO-TC-001",
+    "type": "test-case",
+    "title": "Azure DevOps Test Case Core Fields",
+    "source": "RAG://azure-devops-test-plan-guidelines#core-fields",
+    "section": "Azure DevOps Test Plans",
+    "text": "A user sign-off ready test case should include a stable test case ID, title, requirement or user story mapping, area path or business flow, priority, risk level, preconditions, test data, ordered action steps, expected results, assertions, automation status, reviewer decision, and evidence links after execution."
+  },
+  {
+    "id": "ADO-TC-002",
+    "type": "test-case",
+    "title": "Azure DevOps Step Design",
+    "source": "RAG://azure-devops-test-plan-guidelines#step-design",
+    "section": "Azure DevOps Test Plans",
+    "text": "Each test step should contain one clear user action and one verifiable expected outcome. Steps should avoid vague instructions such as verify everything works. Test data should be explicit enough for repeatable execution and should not use production-sensitive data."
+  },
+  {
+    "id": "ADO-TC-003",
+    "type": "test-case",
+    "title": "Approval And Traceability",
+    "source": "RAG://azure-devops-test-plan-guidelines#approval-traceability",
+    "section": "Azure DevOps Test Plans",
+    "text": "Only approved test cases should be promoted to automation. Rejected test cases should remain visible for audit, but they must not be converted to scripts or included in sign-off execution coverage. The final report should show approval status and execution status separately."
+  },
+  {
+    "id": "ADO-TC-004",
+    "type": "test-case",
+    "title": "Enterprise Sign-off Evidence",
+    "source": "RAG://azure-devops-test-plan-guidelines#signoff-evidence",
+    "section": "Azure DevOps Test Plans",
+    "text": "A sign-off report should include test-case-level result, execution timestamp, duration, evidence artifact, defect or failure detail, business risk, and sign-off placeholders for QA owner and product owner."
+  },
+  {
+    "id": "PW-SCRIPT-001",
+    "type": "test-script",
+    "title": "Playwright Naming Convention",
+    "source": "RAG://playwright-automation-guidelines#naming",
+    "section": "Automation Standards",
+    "text": "Generated Playwright tests should preserve the approved test case ID in the test title. Helper functions should use verb-object names such as completeFintechJourney, submitKycDetails, runFraudCheck, or captureEvidence. File names should be stable, lowercase, and describe the suite purpose."
+  },
+  {
+    "id": "PW-SCRIPT-002",
+    "type": "test-script",
+    "title": "Modular Script Structure",
+    "source": "RAG://playwright-automation-guidelines#modular-structure",
+    "section": "Automation Standards",
+    "text": "Scripts should separate arrange, act, and assert steps. Reusable setup and journey logic should be extracted into helper functions with clear method signatures. Tests should not duplicate long setup sequences when a shared helper can express the same business precondition."
+  },
+  {
+    "id": "PW-SCRIPT-003",
+    "type": "test-script",
+    "title": "Locator And Assertion Standards",
+    "source": "RAG://playwright-automation-guidelines#locators-assertions",
+    "section": "Automation Standards",
+    "text": "Prefer stable locators such as data-testid, role, label, placeholder, and visible text in that order. Avoid brittle CSS paths when a semantic locator is available. Every test should contain explicit assertions for the approved expected result, not only page navigation."
+  },
+  {
+    "id": "PW-SCRIPT-004",
+    "type": "test-script",
+    "title": "Error Handling And Evidence",
+    "source": "RAG://playwright-automation-guidelines#error-handling-evidence",
+    "section": "Automation Standards",
+    "text": "Generated scripts should capture screenshots for each approved test case and allow Playwright to surface failures through assertions. Error output, screenshot paths, duration, and generated spec path should be included in execution evidence for user sign-off."
+  },
+  {
+    "id": "PW-SCRIPT-005",
+    "type": "test-script",
+    "title": "Method Signature Guidance",
+    "source": "RAG://playwright-automation-guidelines#method-signatures",
+    "section": "Automation Standards",
+    "text": "Helper method signatures should accept the Playwright page object first and domain-specific test data second when needed. Examples include async function completeFintechJourney(page), async function submitPayment(page, paymentData), and async function captureCaseEvidence(page, testCaseId)."
+  }
+]

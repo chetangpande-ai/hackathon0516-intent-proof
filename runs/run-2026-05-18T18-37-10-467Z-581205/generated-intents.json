@@ -1,0 +1,111 @@
+{
+  "runId": "run-2026-05-18T18-37-10-467Z-581205",
+  "url": "https://www.hdfc.com/housing-loans/home-loans",
+  "source": "fallback (qa-intents: LLM unavailable)",
+  "domain": {
+    "name": "Fintech",
+    "confidence": "Medium",
+    "signals": [
+      "loan"
+    ],
+    "rationale": "Detected fintech signals from the target URL and release intent."
+  },
+  "intents": [
+    {
+      "id": "INT-P0-001",
+      "title": "Validate account creation and session entry",
+      "priority": "P0",
+      "riskLevel": "High",
+      "flow": "Account creation",
+      "rationale": "A release demo fails immediately if a new customer cannot create an account and enter the product.",
+      "acceptanceCriteria": [
+        "Customer can submit valid profile details.",
+        "Customer lands in the onboarding journey without validation errors."
+      ],
+      "suggestedAutomation": "web",
+      "releaseGate": "Functional",
+      "reviewerStatus": "pending"
+    },
+    {
+      "id": "INT-P0-002",
+      "title": "Validate KYC onboarding state progression",
+      "priority": "P0",
+      "riskLevel": "Critical",
+      "flow": "KYC onboarding",
+      "rationale": "KYC is a fintech identity gate and a common release blocker for onboarding flows.",
+      "acceptanceCriteria": [
+        "Valid identity details are accepted.",
+        "KYC status moves to review or approved state with clear messaging."
+      ],
+      "suggestedAutomation": "web",
+      "releaseGate": "Functional",
+      "reviewerStatus": "pending"
+    },
+    {
+      "id": "INT-P0-003",
+      "title": "Validate payment success and wallet balance update",
+      "priority": "P0",
+      "riskLevel": "Critical",
+      "flow": "Payment and wallet",
+      "rationale": "Money movement and balance accuracy have the highest customer and compliance impact.",
+      "acceptanceCriteria": [
+        "Payment can be submitted successfully.",
+        "Wallet balance reflects the payment amount exactly once."
+      ],
+      "suggestedAutomation": "web",
+      "releaseGate": "Functional",
+      "reviewerStatus": "pending"
+    },
+    {
+      "id": "INT-P1-004",
+      "title": "Validate failed or duplicate payment handling",
+      "priority": "P1",
+      "riskLevel": "Critical",
+      "flow": "Payment resiliency",
+      "rationale": "Duplicate or ambiguous payment states can create financial loss and reconciliation issues.",
+      "acceptanceCriteria": [
+        "Invalid payment input is rejected safely.",
+        "Duplicate submission is prevented or clearly handled."
+      ],
+      "suggestedAutomation": "web",
+      "releaseGate": "Functional",
+      "reviewerStatus": "pending"
+    },
+    {
+      "id": "INT-P1-005",
+      "title": "Validate refund initiation and status visibility",
+      "priority": "P1",
+      "riskLevel": "High",
+      "flow": "Refund",
+      "rationale": "Refund errors damage trust and are often tied to legacy regression risk.",
+      "acceptanceCriteria": [
+        "Eligible transaction can trigger refund.",
+        "Refund status is visible after submission."
+      ],
+      "suggestedAutomation": "web",
+      "releaseGate": "Regression",
+      "reviewerStatus": "pending"
+    },
+    {
+      "id": "INT-P1-006",
+      "title": "Validate fraud decision visibility in payment flow",
+      "priority": "P1",
+      "riskLevel": "High",
+      "flow": "Fraud check",
+      "rationale": "Fraud decisions should be visible in shadow/demo mode without blocking good users unexpectedly.",
+      "acceptanceCriteria": [
+        "Fraud risk is calculated before payment completion.",
+        "The decision is explainable to the operator or user."
+      ],
+      "suggestedAutomation": "web",
+      "releaseGate": "AI Model Safety",
+      "reviewerStatus": "pending"
+    }
+  ],
+  "reasoningTrace": [
+    "Domain Agent detected Fintech with Medium confidence.",
+    "Signals: loan.",
+    "Risk Intent Agent generated 6 fintech-aware QA intents.",
+    "Used deterministic fallback templates so the demo remains stable."
+  ]
+}

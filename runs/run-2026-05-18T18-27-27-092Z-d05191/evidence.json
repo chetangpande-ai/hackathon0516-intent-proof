@@ -1,0 +1,349 @@
+{
+  "runId": "run-2026-05-18T18-27-27-092Z-d05191",
+  "status": "passed",
+  "approvedCount": 6,
+  "generatedSpecPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/generated-tests.spec.js",
+  "approvedTestCasesPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/approved-test-cases.json",
+  "reportPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/playwright-report.json",
+  "outputDir": "runs/run-2026-05-18T18-27-27-092Z-d05191/test-results",
+  "stdout": "{\n  \"config\": {\n    \"rootDir\": \"E:/AI-Projects/hackathon-may-2926/intent-driven-testing-platform\",\n    \"forbidOnly\": false,\n    \"fullyParallel\": false,\n    \"globalSetup\": null,\n    \"globalTeardown\": null,\n    \"globalTimeout\": 0,\n    \"grep\": {},\n    \"grepInvert\": null,\n    \"maxFailures\": 0,\n    \"metadata\": {\n      \"actualWorkers\": 1\n    },\n    \"preserveOutput\": \"always\",\n    \"projects\": [\n      {\n        \"outputDir\": \"E:/AI-Projects/hackathon-may-2926/intent-driven-testing-platform/runs/run-2026-05-18T18-27-27-092Z-d05191/test-results\",\n        \"repeatEach\": 1,\n        \"retries\": 0,\n        \"metadata\": {\n          \"actualWorkers\": 1\n        },\n        \"id\": \"\",\n        \"name\": \"\",\n        \"testDir\": \"E:/AI-Projects/hackathon-may-2926/intent-driven-testing-platform\",\n        \"testIgnore\": [],\n        \"testMatch\": [\n          \"**/*.@(spec|test).?(c|m)[jt]s?(x)\"\n        ],\n        \"timeout\": 30000\n      }\n    ],\n    \"quiet\": false,\n    \"reporter\": [\n      [\n        \"json\"\n      ]\n    ],\n    \"reportSlowTests\": {\n      \"max\": 5,\n      \"threshold\": 300000\n    },\n    \"shard\": null,\n    \"tags\": [],\n    \"updateSnapshots\": \"missing\",\n    \"updateSourceMethod\": \"patch\",\n    \"version\": \"1.60.0\",\n    \"workers\": 9,\n    \"webServer\": null\n  },\n  \"suites\": [\n    {\n      \"title\": \"runs\\\\run-2026-05-18T18-27-27-092Z-d05191\\\\generated-tests.spec.js\",\n      \"file\": \"runs/run-2026-05-18T18-27-27-092Z-d05191/generated-tests.spec.js\",\n      \"column\": 0,\n      \"line\": 0,\n      \"specs\": [\n        {\n          \"title\": \"TC-001 Validate patient registration and profile creation\",\n          \"ok\": true,\n          \"tags\": [],\n          \"tests\": [\n            {\n              \"timeout\": 30000,\n              \"annotations\": [],\n              \"expectedStatus\": \"passed\",\n              \"projectId\": \"\",\n              \"projectName\": \"\",\n              \"results\": [\n                {\n                  \"workerIndex\": 0,\n                  \"parallelIndex\": 0,\n                  \"status\": \"passed\",\n                  \"duration\": 2660,\n                  \"errors\": [],\n                  \"stdout\": [],\n                  \"stderr\": [],\n                  \"retry\": 0,\n                  \"startTime\": \"2026-05-18T18:29:00.949Z\",\n                  \"annotations\": [],\n                  \"attachments\": []\n                }\n              ],\n              \"status\": \"expected\"\n            }\n          ],\n          \"id\": \"5689b434a83840649424-03dc4886cc9f99112368\",\n          \"file\": \"runs/run-2026-05-18T18-27-27-092Z-d05191/generated-tests.spec.js\",\n          \"line\": 12,\n          \"column\": 1\n        },\n        {\n          \"title\": \"TC-002 Validate appointment booking and confirmation\",\n          \"ok\": true,\n          \"tags\": [],\n          \"tests\": [\n            {\n              \"timeout\": 30000,\n              \"annotations\": [],\n              \"expectedStatus\": \"passed\",\n              \"projectId\": \"\",\n              \"projectName\": \"\",\n              \"results\": [\n                {\n                  \"workerIndex\": 0,\n                  \"parallelIndex\": 0,\n                  \"status\": \"passed\",\n                  \"duration\": 4120,\n                  \"errors\": [],\n                  \"stdout\": [],\n                  \"stderr\": [],\n                  \"retry\": 0,\n                  \"startTime\": \"2026-05-18T18:29:04.439Z\",\n                  \"annotations\": [],\n                  \"attachments\": []\n                }\n              ],\n              \"status\": \"expected\"\n            }\n          ],\n          \"id\": \"5689b434a83840649424-29a5e8c5efb6ba7fcb64\",\n          \"file\": \"runs/run-2026-05-18T18-27-27-092Z-d05191/generated-tests.spec.js\",\n          \"line\": 19,\n          \"column\": 1\n        },\n        {\n          \"title\": \"TC-003 Validate medical record access controls\",\n          \"ok\": true,\n          \"tags\": [],\n          \"tests\": [\n            {\n              \"timeout\": 30000,\n              \"annotations\": [],\n              \"expectedStatus\": \"passed\",\n              \"projectId\": \"\",\n              \"projectName\": \"\",\n              \"results\": [\n                {\n                  \"workerIndex\": 0,\n                  \"parallelIndex\": 0,\n                  \"status\": \"passed\",\n                  \"duration\": 3038,\n                  \"errors\": [],\n                  \"stdout\": [],\n                  \"stderr\": [],\n                  \"retry\": 0,\n                  \"startTime\": \"2026-05-18T18:29:08.617Z\",\n                  \"annotations\": [],\n                  \"attachments\": []\n                }\n              ],\n              \"status\": \"expected\"\n            }\n          ],\n          \"id\": \"5689b434a83840649424-39e5d9e52eb12cffd1bf\",\n          \"file\": \"runs/run-2026-05-18T18-27-27-092Z-d05191/generated-tests.spec.js\",\n          \"line\": 26,\n          \"column\": 1\n        },\n        {\n          \"title\": \"TC-004 Validate prescription or care instruction visibility\",\n          \"ok\": true,\n          \"tags\": [],\n          \"tests\": [\n            {\n              \"timeout\": 30000,\n              \"annotations\": [],\n              \"expectedStatus\": \"passed\",\n              \"projectId\": \"\",\n              \"projectName\": \"\",\n              \"results\": [\n                {\n                  \"workerIndex\": 0,\n                  \"parallelIndex\": 0,\n                  \"status\": \"passed\",\n                  \"duration\": 1970,\n                  \"errors\": [],\n                  \"stdout\": [],\n                  \"stderr\": [],\n                  \"retry\": 0,\n                  \"startTime\": \"2026-05-18T18:29:11.685Z\",\n                  \"annotations\": [],\n                  \"attachments\": []\n                }\n              ],\n              \"status\": \"expected\"\n            }\n          ],\n          \"id\": \"5689b434a83840649424-3f4b08ebd85554a4b573\",\n          \"file\": \"runs/run-2026-05-18T18-27-27-092Z-d05191/generated-tests.spec.js\",\n          \"line\": 33,\n          \"column\": 1\n        },\n        {\n          \"title\": \"TC-005 Validate consent and privacy messaging\",\n          \"ok\": true,\n          \"tags\": [],\n          \"tests\": [\n            {\n           \n... trimmed ...",
+  "stderr": "",
+  "releaseSummary": {
+    "decision": "Demo-ready for approved web flows",
+    "approvedTests": 6,
+    "passedTests": 6,
+    "failedTests": 0,
+    "blockers": 0,
+    "message": "Approved critical flows executed successfully with saved evidence."
+  },
+  "sourceLineage": {
+    "testCases": {
+      "kind": "test-case",
+      "backend": "faiss-node",
+      "index": "IndexFlatIP",
+      "sourceFile": "rag/guidelines.json",
+      "retrievedAt": "2026-05-18T18:28:35.992Z",
+      "chunkCount": 3,
+      "chunks": [
+        {
+          "id": "ADO-TC-001",
+          "type": "test-case",
+          "title": "Azure DevOps Test Case Core Fields",
+          "section": "Azure DevOps Test Plans",
+          "source": "RAG://azure-devops-test-plan-guidelines#core-fields",
+          "score": 0.508,
+          "excerpt": "A user sign-off ready test case should include a stable test case ID, title, requirement or user story mapping, area path or business flow, priority, risk level, preconditions, test data, ordered action steps, expected results, assertions, automation status, reviewer decision, and evidence links after execution."
+        },
+        {
+          "id": "ADO-TC-004",
+          "type": "test-case",
+          "title": "Enterprise Sign-off Evidence",
+          "section": "Azure DevOps Test Plans",
+          "source": "RAG://azure-devops-test-plan-guidelines#signoff-evidence",
+          "score": 0.4335,
+          "excerpt": "A sign-off report should include test-case-level result, execution timestamp, duration, evidence artifact, defect or failure detail, business risk, and sign-off placeholders for QA owner and product owner."
+        },
+        {
+          "id": "ADO-TC-003",
+          "type": "test-case",
+          "title": "Approval And Traceability",
+          "section": "Azure DevOps Test Plans",
+          "source": "RAG://azure-devops-test-plan-guidelines#approval-traceability",
+          "score": 0.4211,
+          "excerpt": "Only approved test cases should be promoted to automation. Rejected test cases should remain visible for audit, but they must not be converted to scripts or included in sign-off execution coverage. The final report should show approval status and execution status separately."
+        }
+      ]
+    },
+    "testScripts": {
+      "kind": "test-script",
+      "backend": "faiss-node",
+      "index": "IndexFlatIP",
+      "sourceFile": "rag/guidelines.json",
+      "retrievedAt": "2026-05-18T18:28:49.918Z",
+      "chunkCount": 4,
+      "chunks": [
+        {
+          "id": "PW-SCRIPT-004",
+          "type": "test-script",
+          "title": "Error Handling And Evidence",
+          "section": "Automation Standards",
+          "source": "RAG://playwright-automation-guidelines#error-handling-evidence",
+          "score": 0.5364,
+          "excerpt": "Generated scripts should capture screenshots for each approved test case and allow Playwright to surface failures through assertions. Error output, screenshot paths, duration, and generated spec path should be included in execution evidence for user sign-off."
+        },
+        {
+          "id": "PW-SCRIPT-002",
+          "type": "test-script",
+          "title": "Modular Script Structure",
+          "section": "Automation Standards",
+          "source": "RAG://playwright-automation-guidelines#modular-structure",
+          "score": 0.5181,
+          "excerpt": "Scripts should separate arrange, act, and assert steps. Reusable setup and journey logic should be extracted into helper functions with clear method signatures. Tests should not duplicate long setup sequences when a shared helper can express the same business precondition."
+        },
+        {
+          "id": "PW-SCRIPT-001",
+          "type": "test-script",
+          "title": "Playwright Naming Convention",
+          "section": "Automation Standards",
+          "source": "RAG://playwright-automation-guidelines#naming",
+          "score": 0.46,
+          "excerpt": "Generated Playwright tests should preserve the approved test case ID in the test title. Helper functions should use verb-object names such as completeFintechJourney, submitKycDetails, runFraudCheck, or captureEvidence. File names should be stable, lowercase, and describe the suite purpose."
+        },
+        {
+          "id": "PW-SCRIPT-003",
+          "type": "test-script",
+          "title": "Locator And Assertion Standards",
+          "section": "Automation Standards",
+          "source": "RAG://playwright-automation-guidelines#locators-assertions",
+          "score": 0.3919,
+          "excerpt": "Prefer stable locators such as data-testid, role, label, placeholder, and visible text in that order. Avoid brittle CSS paths when a semantic locator is available. Every test should contain explicit assertions for the approved expected result, not only page navigation."
+        }
+      ]
+    }
+  },
+  "completedAt": "2026-05-18T18:29:18.255Z",
+  "testCaseResults": [
+    {
+      "id": "TC-001",
+      "title": "Validate patient registration and profile creation",
+      "businessIntentId": "INT-P0-001",
+      "businessFlow": "Patient registration",
+      "priority": "P0",
+      "riskLevel": "Critical",
+      "approvalStatus": "Approved",
+      "executionStatus": "Passed",
+      "durationMs": 2660,
+      "startedAt": "2026-05-18T18:29:00.949Z",
+      "screenshotPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/screenshots/TC-001.png",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Interact with observed action \"1\".",
+        "Verify the resulting state matches the approved QA intent."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-004",
+        "ADO-TC-003"
+      ],
+      "error": ""
+    },
+    {
+      "id": "TC-002",
+      "title": "Validate appointment booking and confirmation",
+      "businessIntentId": "INT-P0-002",
+      "businessFlow": "Appointment booking",
+      "priority": "P0",
+      "riskLevel": "Critical",
+      "approvalStatus": "Approved",
+      "executionStatus": "Passed",
+      "durationMs": 4120,
+      "startedAt": "2026-05-18T18:29:04.439Z",
+      "screenshotPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/screenshots/TC-002.png",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Interact with observed action \"1\".",
+        "Verify the resulting state matches the approved QA intent."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-004",
+        "ADO-TC-003"
+      ],
+      "error": ""
+    },
+    {
+      "id": "TC-003",
+      "title": "Validate medical record access controls",
+      "businessIntentId": "INT-P1-003",
+      "businessFlow": "Medical records",
+      "priority": "P1",
+      "riskLevel": "High",
+      "approvalStatus": "Approved",
+      "executionStatus": "Passed",
+      "durationMs": 3038,
+      "startedAt": "2026-05-18T18:29:08.617Z",
+      "screenshotPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/screenshots/TC-003.png",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Interact with observed action \"1\".",
+        "Verify the resulting state matches the approved QA intent."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-004",
+        "ADO-TC-003"
+      ],
+      "error": ""
+    },
+    {
+      "id": "TC-004",
+      "title": "Validate prescription or care instruction visibility",
+      "businessIntentId": "INT-P1-004",
+      "businessFlow": "Prescription",
+      "priority": "P1",
+      "riskLevel": "High",
+      "approvalStatus": "Approved",
+      "executionStatus": "Passed",
+      "durationMs": 1970,
+      "startedAt": "2026-05-18T18:29:11.685Z",
+      "screenshotPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/screenshots/TC-004.png",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Interact with observed action \"1\".",
+        "Verify the resulting state matches the approved QA intent."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-004",
+        "ADO-TC-003"
+      ],
+      "error": ""
+    },
+    {
+      "id": "TC-005",
+      "title": "Validate consent and privacy messaging",
+      "businessIntentId": "INT-P1-005",
+      "businessFlow": "Consent",
+      "priority": "P1",
+      "riskLevel": "High",
+      "approvalStatus": "Approved",
+      "executionStatus": "Passed",
+      "durationMs": 2384,
+      "startedAt": "2026-05-18T18:29:13.684Z",
+      "screenshotPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/screenshots/TC-005.png",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Interact with observed action \"1\".",
+        "Verify the resulting state matches the approved QA intent."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-004",
+        "ADO-TC-003"
+      ],
+      "error": ""
+    },
+    {
+      "id": "TC-006",
+      "title": "Validate accessibility for patient onboarding",
+      "businessIntentId": "INT-P2-006",
+      "businessFlow": "Accessibility",
+      "priority": "P2",
+      "riskLevel": "Medium",
+      "approvalStatus": "Approved",
+      "executionStatus": "Passed",
+      "durationMs": 1952,
+      "startedAt": "2026-05-18T18:29:16.086Z",
+      "screenshotPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/screenshots/TC-006.png",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Interact with observed action \"1\".",
+        "Verify the resulting state matches the approved QA intent."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-004",
+        "ADO-TC-003"
+      ],
+      "error": ""
+    }
+  ],
+  "signoffReportHtmlPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/signoff-report.html",
+  "signoffReportMarkdownPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/signoff-report.md"
+}

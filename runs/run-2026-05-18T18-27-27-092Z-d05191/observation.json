@@ -1,0 +1,286 @@
+{
+  "runId": "run-2026-05-18T18-27-27-092Z-d05191",
+  "observation": {
+    "title": "Apollo 247 - Online Doctor Consultation & Book Lab Tests at Home",
+    "url": "https://www.apollo247.com/",
+    "headings": [
+      "Buy Medicines & Essentials",
+      "Doctor Appointment",
+      "Lab Tests",
+      "Health Insurance",
+      "Shop By Category (12)",
+      "Health Monitors",
+      "Ayurvedic Diabetes Care",
+      "Pain Relief",
+      "Baby Care",
+      "Nutritional Drinks & Supplements",
+      "Adult Diapers",
+      "Vitamins & Minerals"
+    ],
+    "buttons": [
+      {
+        "tag": "button",
+        "type": "",
+        "text": "1",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "2",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "3",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "4",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Add",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Add",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Add",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Add",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Button",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Button",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Button",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Button",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Button",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "Button",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "1",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "2",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "1",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "2",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "text": "expand all",
+        "testId": "",
+        "name": "",
+        "placeholder": "",
+        "role": ""
+      }
+    ],
+    "inputs": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.apollo247.com/"
+      },
+      {
+        "text": "Buy Medicines",
+        "href": "https://www.apollopharmacy.in/"
+      },
+      {
+        "text": "Find Doctors",
+        "href": "https://www.apollo247.com/specialties"
+      },
+      {
+        "text": "Lab Tests",
+        "href": "https://www.apollo247.com/lab-tests"
+      },
+      {
+        "text": "Circle Membership",
+        "href": "https://www.apollo247.com/circle-landing"
+      },
+      {
+        "text": "Health Records",
+        "href": "https://www.apollo247.com/guest-health-records"
+      },
+      {
+        "text": "Credit CardNew",
+        "href": "https://www.apollo247.com/apollo-sbi-credit-card?utm_source=apollopharmacy&utm_medium=navbar"
+      },
+      {
+        "text": "Buy InsuranceNew",
+        "href": "https://apollo247insurance.com/health-insurance"
+      },
+      {
+        "text": "Banner",
+        "href": "https://www.apollo247.com/lab-tests?utm_source=Apollo247Homepage"
+      },
+      {
+        "text": "Banner",
+        "href": "https://www.apollo247.com/apollo-sbi-credit-card?utm_source=mweb&utm_medium=homepage&utm_campaign=broad"
+      },
+      {
+        "text": "Banner",
+        "href": "https://www.apollo247insurance.com/health-insurance?utm_source=INS_CF&utm_medium=TopBanner&utm_campaign=Apollo247_Homepage"
+      },
+      {
+        "text": "Banner",
+        "href": "https://www.apollo247.com/lab-tests-category/full-body-checkup"
+      },
+      {
+        "text": "Banner",
+        "href": "https://www.apollo247.com/lab-tests?utm_source=Apollo247Homepage"
+      },
+      {
+        "text": "Banner",
+        "href": "https://www.apollo247.com/apollo-sbi-credit-card?utm_source=mweb&utm_medium=homepage&utm_campaign=broad"
+      },
+      {
+        "text": "Banner",
+        "href": "https://www.apollo247insurance.com/health-insurance?utm_source=INS_CF&utm_medium=TopBanner&utm_campaign=Apollo247_Homepage"
+      },
+      {
+        "text": "Banner",
+        "href": "https://www.apollo247.com/lab-tests-category/full-body-checkup"
+      },
+      {
+        "text": "Banner",
+        "href": "https://www.apollo247.com/lab-tests?utm_source=Apollo247Homepage"
+      },
+      {
+        "text": "Buy Medicines & Essentials 2HRS DELIVERY",
+        "href": "https://www.apollopharmacy.in/"
+      },
+      {
+        "text": "Doctor Appointment BOOK NOW",
+        "href": "https://www.apollo247.com/specialties"
+      },
+      {
+        "text": "Lab Tests AT HOME",
+        "href": "https://www.apollo247.com/lab-tests"
+      }
+    ],
+    "forms": [],
+    "visibleTextSample": "Buy Medicines Find Doctors Lab Tests Circle Membership Health Records Credit CardNew Buy InsuranceNew 1 2 3 4 Buy Medicines & Essentials 2HRS DELIVERY Doctor Appointment BOOK NOW Lab Tests AT HOME Health Insurance EXPLORE PLANS Shop By Category (12) Health Monitors Ayurvedic Diabetes Care Pain Relief Baby Care Nutritional Drinks & Supplements Adult Diapers Vitamins & Minerals Protein Powders & Drinks Summer Essentials Home Medical Supplies Intimate Care Skin & Hair Care Top Booked Tests (41) View All CBC Test (Complete Blood Count) 30 Tests Included ₹439 (₹1098) 60% off Add HbA1c Test (Hemoglobin A1c) 3 Tests Included ₹659 (₹1647) 60% off Add FBS (Fasting Blood Sugar )Test 1 Test Included 10-Hour Report Guarantee ₹99 (₹248) 60% off Add Lipid Profile Test 8 Tests Included ₹849 (₹2122) 60% off Add ₹99 (₹248) 60% off ₹889 (₹2222) 60% off ₹759 (₹1897) 60% off ₹212 (₹530) 60% off ₹1049 (₹2623) 60% off ₹339 (₹848) 60% off 1 2 1 2 Blogs and Articles for You (30) View All Urea and Creatinine Test: Normal Range, Procedure, and Results By Apollo 24|7 - 16.05.26 Hypothyroidism Diet: Foods To Eat And Avoid By Apollo 24|7 - 02.05.26 What is Mounjaro (Tirzepatide) and How Does it Work? By Apollo"
+  },
+  "screenshotPath": "/runs/run-2026-05-18T18-27-27-092Z-d05191/screenshots/observe.png",
+  "rawScriptPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/raw-crawl.spec.js",
+  "reasoningTrace": [
+    "Opened https://www.apollo247.com/ with Playwright and captured the loaded page state.",
+    "Observed 0 forms, 0 inputs, 19 buttons, and 20 links.",
+    "Mapped observation to 6 human-approved QA intents before test generation."
+  ]
+}

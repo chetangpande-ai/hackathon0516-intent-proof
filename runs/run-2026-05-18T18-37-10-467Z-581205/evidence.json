@@ -1,0 +1,364 @@
+{
+  "runId": "run-2026-05-18T18-37-10-467Z-581205",
+  "status": "passed",
+  "approvedCount": 6,
+  "generatedSpecPath": "runs/run-2026-05-18T18-37-10-467Z-581205/generated-tests.spec.js",
+  "approvedTestCasesPath": "runs/run-2026-05-18T18-37-10-467Z-581205/approved-test-cases.json",
+  "reportPath": "runs/run-2026-05-18T18-37-10-467Z-581205/playwright-report.json",
+  "outputDir": "runs/run-2026-05-18T18-37-10-467Z-581205/test-results",
+  "stdout": "{\n  \"config\": {\n    \"rootDir\": \"E:/AI-Projects/hackathon-may-2926/hackathon0516-intent-proof\",\n    \"forbidOnly\": false,\n    \"fullyParallel\": false,\n    \"globalSetup\": null,\n    \"globalTeardown\": null,\n    \"globalTimeout\": 0,\n    \"grep\": {},\n    \"grepInvert\": null,\n    \"maxFailures\": 0,\n    \"metadata\": {\n      \"actualWorkers\": 1\n    },\n    \"preserveOutput\": \"always\",\n    \"projects\": [\n      {\n        \"outputDir\": \"E:/AI-Projects/hackathon-may-2926/hackathon0516-intent-proof/runs/run-2026-05-18T18-37-10-467Z-581205/test-results\",\n        \"repeatEach\": 1,\n        \"retries\": 0,\n        \"metadata\": {\n          \"actualWorkers\": 1\n        },\n        \"id\": \"\",\n        \"name\": \"\",\n        \"testDir\": \"E:/AI-Projects/hackathon-may-2926/hackathon0516-intent-proof\",\n        \"testIgnore\": [],\n        \"testMatch\": [\n          \"**/*.@(spec|test).?(c|m)[jt]s?(x)\"\n        ],\n        \"timeout\": 30000\n      }\n    ],\n    \"quiet\": false,\n    \"reporter\": [\n      [\n        \"json\"\n      ]\n    ],\n    \"reportSlowTests\": {\n      \"max\": 5,\n      \"threshold\": 300000\n    },\n    \"shard\": null,\n    \"tags\": [],\n    \"updateSnapshots\": \"missing\",\n    \"updateSourceMethod\": \"patch\",\n    \"version\": \"1.60.0\",\n    \"workers\": 9,\n    \"webServer\": null\n  },\n  \"suites\": [\n    {\n      \"title\": \"runs\\\\run-2026-05-18T18-37-10-467Z-581205\\\\generated-tests.spec.js\",\n      \"file\": \"runs/run-2026-05-18T18-37-10-467Z-581205/generated-tests.spec.js\",\n      \"column\": 0,\n      \"line\": 0,\n      \"specs\": [\n        {\n          \"title\": \"TC-001 Validate account creation and session entry\",\n          \"ok\": true,\n          \"tags\": [],\n          \"tests\": [\n            {\n              \"timeout\": 30000,\n              \"annotations\": [],\n              \"expectedStatus\": \"passed\",\n              \"projectId\": \"\",\n              \"projectName\": \"\",\n              \"results\": [\n                {\n                  \"workerIndex\": 0,\n                  \"parallelIndex\": 0,\n                  \"status\": \"passed\",\n                  \"duration\": 3286,\n                  \"errors\": [],\n                  \"stdout\": [],\n                  \"stderr\": [],\n                  \"retry\": 0,\n                  \"startTime\": \"2026-05-18T18:37:38.997Z\",\n                  \"annotations\": [],\n                  \"attachments\": []\n                }\n              ],\n              \"status\": \"expected\"\n            }\n          ],\n          \"id\": \"d0420652bb871e539ccb-4222d91496fabe9af99d\",\n          \"file\": \"runs/run-2026-05-18T18-37-10-467Z-581205/generated-tests.spec.js\",\n          \"line\": 12,\n          \"column\": 1\n        },\n        {\n          \"title\": \"TC-002 Validate KYC onboarding state progression\",\n          \"ok\": true,\n          \"tags\": [],\n          \"tests\": [\n            {\n              \"timeout\": 30000,\n              \"annotations\": [],\n              \"expectedStatus\": \"passed\",\n              \"projectId\": \"\",\n              \"projectName\": \"\",\n              \"results\": [\n                {\n                  \"workerIndex\": 0,\n                  \"parallelIndex\": 0,\n                  \"status\": \"passed\",\n                  \"duration\": 3507,\n                  \"errors\": [],\n                  \"stdout\": [],\n                  \"stderr\": [],\n                  \"retry\": 0,\n                  \"startTime\": \"2026-05-18T18:37:43.022Z\",\n                  \"annotations\": [],\n                  \"attachments\": []\n                }\n              ],\n              \"status\": \"expected\"\n            }\n          ],\n          \"id\": \"d0420652bb871e539ccb-c578e49988cf01f8bc0a\",\n          \"file\": \"runs/run-2026-05-18T18-37-10-467Z-581205/generated-tests.spec.js\",\n          \"line\": 19,\n          \"column\": 1\n        },\n        {\n          \"title\": \"TC-003 Validate payment success and wallet balance update\",\n          \"ok\": true,\n          \"tags\": [],\n          \"tests\": [\n            {\n              \"timeout\": 30000,\n              \"annotations\": [],\n              \"expectedStatus\": \"passed\",\n              \"projectId\": \"\",\n              \"projectName\": \"\",\n              \"results\": [\n                {\n                  \"workerIndex\": 0,\n                  \"parallelIndex\": 0,\n                  \"status\": \"passed\",\n                  \"duration\": 3048,\n                  \"errors\": [],\n                  \"stdout\": [],\n                  \"stderr\": [],\n                  \"retry\": 0,\n                  \"startTime\": \"2026-05-18T18:37:46.589Z\",\n                  \"annotations\": [],\n                  \"attachments\": []\n                }\n              ],\n              \"status\": \"expected\"\n            }\n          ],\n          \"id\": \"d0420652bb871e539ccb-08ec3db63296edc9777c\",\n          \"file\": \"runs/run-2026-05-18T18-37-10-467Z-581205/generated-tests.spec.js\",\n          \"line\": 26,\n          \"column\": 1\n        },\n        {\n          \"title\": \"TC-004 Validate failed or duplicate payment handling\",\n          \"ok\": true,\n          \"tags\": [],\n          \"tests\": [\n            {\n              \"timeout\": 30000,\n              \"annotations\": [],\n              \"expectedStatus\": \"passed\",\n              \"projectId\": \"\",\n              \"projectName\": \"\",\n              \"results\": [\n                {\n                  \"workerIndex\": 0,\n                  \"parallelIndex\": 0,\n                  \"status\": \"passed\",\n                  \"duration\": 2655,\n                  \"errors\": [],\n                  \"stdout\": [],\n                  \"stderr\": [],\n                  \"retry\": 0,\n                  \"startTime\": \"2026-05-18T18:37:49.652Z\",\n                  \"annotations\": [],\n                  \"attachments\": []\n                }\n              ],\n              \"status\": \"expected\"\n            }\n          ],\n          \"id\": \"d0420652bb871e539ccb-9280e07361ee21c42ffb\",\n          \"file\": \"runs/run-2026-05-18T18-37-10-467Z-581205/generated-tests.spec.js\",\n          \"line\": 33,\n          \"column\": 1\n        },\n        {\n          \"title\": \"TC-005 Validate refund initiation and status visibility\",\n          \"ok\": true,\n          \"tags\": [],\n          \"tests\": [\n            {\n              \"timeo\n... trimmed ...",
+  "stderr": "",
+  "releaseSummary": {
+    "decision": "Demo-ready for approved web flows",
+    "approvedTests": 6,
+    "passedTests": 6,
+    "failedTests": 0,
+    "blockers": 0,
+    "message": "Approved critical flows executed successfully with saved evidence."
+  },
+  "sourceLineage": {
+    "testCases": {
+      "kind": "test-case",
+      "backend": "faiss-node",
+      "index": "IndexFlatIP",
+      "sourceFile": "rag/guidelines.json",
+      "retrievedAt": "2026-05-18T18:37:32.420Z",
+      "chunkCount": 3,
+      "chunks": [
+        {
+          "id": "ADO-TC-001",
+          "type": "test-case",
+          "title": "Azure DevOps Test Case Core Fields",
+          "section": "Azure DevOps Test Plans",
+          "source": "RAG://azure-devops-test-plan-guidelines#core-fields",
+          "score": 0.5429,
+          "excerpt": "A user sign-off ready test case should include a stable test case ID, title, requirement or user story mapping, area path or business flow, priority, risk level, preconditions, test data, ordered action steps, expected results, assertions, automation status, reviewer decision, and evidence links after execution."
+        },
+        {
+          "id": "ADO-TC-003",
+          "type": "test-case",
+          "title": "Approval And Traceability",
+          "section": "Azure DevOps Test Plans",
+          "source": "RAG://azure-devops-test-plan-guidelines#approval-traceability",
+          "score": 0.4265,
+          "excerpt": "Only approved test cases should be promoted to automation. Rejected test cases should remain visible for audit, but they must not be converted to scripts or included in sign-off execution coverage. The final report should show approval status and execution status separately."
+        },
+        {
+          "id": "ADO-TC-004",
+          "type": "test-case",
+          "title": "Enterprise Sign-off Evidence",
+          "section": "Azure DevOps Test Plans",
+          "source": "RAG://azure-devops-test-plan-guidelines#signoff-evidence",
+          "score": 0.4177,
+          "excerpt": "A sign-off report should include test-case-level result, execution timestamp, duration, evidence artifact, defect or failure detail, business risk, and sign-off placeholders for QA owner and product owner."
+        }
+      ]
+    },
+    "testScripts": {
+      "kind": "test-script",
+      "backend": "faiss-node",
+      "index": "IndexFlatIP",
+      "sourceFile": "rag/guidelines.json",
+      "retrievedAt": "2026-05-18T18:37:35.153Z",
+      "chunkCount": 4,
+      "chunks": [
+        {
+          "id": "PW-SCRIPT-004",
+          "type": "test-script",
+          "title": "Error Handling And Evidence",
+          "section": "Automation Standards",
+          "source": "RAG://playwright-automation-guidelines#error-handling-evidence",
+          "score": 0.5365,
+          "excerpt": "Generated scripts should capture screenshots for each approved test case and allow Playwright to surface failures through assertions. Error output, screenshot paths, duration, and generated spec path should be included in execution evidence for user sign-off."
+        },
+        {
+          "id": "PW-SCRIPT-002",
+          "type": "test-script",
+          "title": "Modular Script Structure",
+          "section": "Automation Standards",
+          "source": "RAG://playwright-automation-guidelines#modular-structure",
+          "score": 0.5091,
+          "excerpt": "Scripts should separate arrange, act, and assert steps. Reusable setup and journey logic should be extracted into helper functions with clear method signatures. Tests should not duplicate long setup sequences when a shared helper can express the same business precondition."
+        },
+        {
+          "id": "PW-SCRIPT-001",
+          "type": "test-script",
+          "title": "Playwright Naming Convention",
+          "section": "Automation Standards",
+          "source": "RAG://playwright-automation-guidelines#naming",
+          "score": 0.4797,
+          "excerpt": "Generated Playwright tests should preserve the approved test case ID in the test title. Helper functions should use verb-object names such as completeFintechJourney, submitKycDetails, runFraudCheck, or captureEvidence. File names should be stable, lowercase, and describe the suite purpose."
+        },
+        {
+          "id": "PW-SCRIPT-003",
+          "type": "test-script",
+          "title": "Locator And Assertion Standards",
+          "section": "Automation Standards",
+          "source": "RAG://playwright-automation-guidelines#locators-assertions",
+          "score": 0.402,
+          "excerpt": "Prefer stable locators such as data-testid, role, label, placeholder, and visible text in that order. Avoid brittle CSS paths when a semantic locator is available. Every test should contain explicit assertions for the approved expected result, not only page navigation."
+        }
+      ]
+    }
+  },
+  "completedAt": "2026-05-18T18:37:57.551Z",
+  "testCaseResults": [
+    {
+      "id": "TC-001",
+      "title": "Validate account creation and session entry",
+      "businessIntentId": "INT-P0-001",
+      "businessFlow": "Account creation",
+      "priority": "P0",
+      "riskLevel": "High",
+      "approvalStatus": "Approved",
+      "executionStatus": "Passed",
+      "durationMs": 3286,
+      "startedAt": "2026-05-18T18:37:38.997Z",
+      "screenshotPath": "runs/run-2026-05-18T18-37-10-467Z-581205/screenshots/TC-001.png",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Enter valid customer profile details.",
+        "Submit account creation.",
+        "Verify the KYC onboarding step becomes available."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-003",
+        "ADO-TC-004"
+      ],
+      "error": ""
+    },
+    {
+      "id": "TC-002",
+      "title": "Validate KYC onboarding state progression",
+      "businessIntentId": "INT-P0-002",
+      "businessFlow": "KYC onboarding",
+      "priority": "P0",
+      "riskLevel": "Critical",
+      "approvalStatus": "Approved",
+      "executionStatus": "Passed",
+      "durationMs": 3507,
+      "startedAt": "2026-05-18T18:37:43.022Z",
+      "screenshotPath": "runs/run-2026-05-18T18-37-10-467Z-581205/screenshots/TC-002.png",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "pan": "ABCDE1234F",
+        "identityId": "KYC-2026-001",
+        "status": "Under review"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Complete the account creation step if required.",
+        "Enter valid KYC identity data.",
+        "Submit KYC details.",
+        "Verify the KYC status moves forward with clear messaging."
+      ],
+      "expectedResult": "KYC details are accepted and the user sees a clear review or approval state.",
+      "assertions": [
+        "KYC status message is visible.",
+        "Identity form is not left in an error state."
+      ],
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-003",
+        "ADO-TC-004"
+      ],
+      "error": ""
+    },
+    {
+      "id": "TC-003",
+      "title": "Validate payment success and wallet balance update",
+      "businessIntentId": "INT-P0-003",
+      "businessFlow": "Payment and wallet",
+      "priority": "P0",
+      "riskLevel": "Critical",
+      "approvalStatus": "Approved",
+      "executionStatus": "Passed",
+      "durationMs": 3048,
+      "startedAt": "2026-05-18T18:37:46.589Z",
+      "screenshotPath": "runs/run-2026-05-18T18-37-10-467Z-581205/screenshots/TC-003.png",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "amount": "2500",
+        "payee": "Acme Supplies",
+        "expectedBalance": "12500"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Complete account and KYC prerequisites if required.",
+        "Enter payment amount and payee.",
+        "Run fraud/risk check.",
+        "Submit payment.",
+        "Verify wallet balance and transaction status update."
+      ],
+      "expectedResult": "Payment completes once and wallet balance reflects the expected amount.",
+      "assertions": [
+        "Payment status is successful.",
+        "Wallet balance is updated.",
+        "No duplicate payment confirmation appears."
+      ],
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-003",
+        "ADO-TC-004"
+      ],
+      "error": ""
+    },
+    {
+      "id": "TC-004",
+      "title": "Validate failed or duplicate payment handling",
+      "businessIntentId": "INT-P1-004",
+      "businessFlow": "Payment resiliency",
+      "priority": "P1",
+      "riskLevel": "Critical",
+      "approvalStatus": "Approved",
+      "executionStatus": "Passed",
+      "durationMs": 2655,
+      "startedAt": "2026-05-18T18:37:49.652Z",
+      "screenshotPath": "runs/run-2026-05-18T18-37-10-467Z-581205/screenshots/TC-004.png",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "amount": "2500",
+        "payee": "Acme Supplies",
+        "expectedBalance": "12500"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Complete account and KYC prerequisites if required.",
+        "Enter payment amount and payee.",
+        "Run fraud/risk check.",
+        "Submit payment.",
+        "Verify wallet balance and transaction status update."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Payment status is successful.",
+        "Wallet balance is updated.",
+        "No duplicate payment confirmation appears."
+      ],
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-003",
+        "ADO-TC-004"
+      ],
+      "error": ""
+    },
+    {
+      "id": "TC-005",
+      "title": "Validate refund initiation and status visibility",
+      "businessIntentId": "INT-P1-005",
+      "businessFlow": "Refund",
+      "priority": "P1",
+      "riskLevel": "High",
+      "approvalStatus": "Approved",
+      "executionStatus": "Passed",
+      "durationMs": 2506,
+      "startedAt": "2026-05-18T18:37:52.325Z",
+      "screenshotPath": "runs/run-2026-05-18T18-37-10-467Z-581205/screenshots/TC-005.png",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "refundReason": "Duplicate charge",
+        "expectedStatus": "Refund initiated"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Complete a successful payment prerequisite if required.",
+        "Trigger refund for the latest eligible transaction.",
+        "Verify refund status and wallet timeline update."
+      ],
+      "expectedResult": "Refund can be initiated and the status is visible to the user.",
+      "assertions": [
+        "Refund status is visible.",
+        "Refund notification is visible."
+      ],
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-003",
+        "ADO-TC-004"
+      ],
+      "error": ""
+    },
+    {
+      "id": "TC-006",
+      "title": "Validate fraud decision visibility in payment flow",
+      "businessIntentId": "INT-P1-006",
+      "businessFlow": "Fraud check",
+      "priority": "P1",
+      "riskLevel": "High",
+      "approvalStatus": "Approved",
+      "executionStatus": "Passed",
+      "durationMs": 2480,
+      "startedAt": "2026-05-18T18:37:54.844Z",
+      "screenshotPath": "runs/run-2026-05-18T18-37-10-467Z-581205/screenshots/TC-006.png",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "amount": "2500",
+        "payee": "Acme Supplies",
+        "expectedBalance": "12500"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Complete account and KYC prerequisites if required.",
+        "Enter payment amount and payee.",
+        "Run fraud/risk check.",
+        "Submit payment.",
+        "Verify wallet balance and transaction status update."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Payment status is successful.",
+        "Wallet balance is updated.",
+        "No duplicate payment confirmation appears."
+      ],
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-003",
+        "ADO-TC-004"
+      ],
+      "error": ""
+    }
+  ],
+  "signoffReportHtmlPath": "runs/run-2026-05-18T18-37-10-467Z-581205/signoff-report.html",
+  "signoffReportMarkdownPath": "runs/run-2026-05-18T18-37-10-467Z-581205/signoff-report.md"
+}

@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QA Sign-off Report - run-2026-05-18T18-23-23-959Z-d506e4</title>
+    <style>
+      body { margin: 0; background: #f5f7fa; color: #172033; font-family: Arial, sans-serif; }
+      main { max-width: 1120px; margin: 0 auto; padding: 28px; }
+      .report-header, .summary, .case, .signoff, .lineage { background: #fff; border: 1px solid #d9e0ea; border-radius: 8px; padding: 18px; margin-bottom: 16px; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 { font-size: 30px; margin-bottom: 8px; }
+      h2 { font-size: 20px; margin-bottom: 4px; }
+      h3 { font-size: 13px; text-transform: uppercase; color: #647084; margin-bottom: 8px; }
+      .eyebrow { color: #087f8c; font-size: 12px; font-weight: 800; text-transform: uppercase; margin-bottom: 6px; }
+      .summary { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+      .tile { border: 1px solid #d9e0ea; border-radius: 8px; padding: 12px; background: #fbfcfe; }
+      .tile span { display: block; color: #647084; font-size: 12px; font-weight: 800; text-transform: uppercase; margin-bottom: 6px; }
+      .tile strong { display: block; overflow-wrap: anywhere; }
+      .decision { background: #e8f7ef; border-color: #a6dfc0; }
+      .decision strong { color: #167a50; }
+      .case-head { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; border-bottom: 1px solid #d9e0ea; padding-bottom: 12px; margin-bottom: 12px; }
+      .badges { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+      .badge { border-radius: 999px; padding: 6px 10px; font-size: 12px; font-weight: 800; border: 1px solid #d9e0ea; white-space: nowrap; }
+      .approved, .passed { color: #167a50; background: #e8f7ef; border-color: #a6dfc0; }
+      .failed { color: #b42318; background: #fff0ed; border-color: #ffcdc5; }
+      .neutral { color: #9a5b00; background: #fff5df; border-color: #ffd98d; }
+      .case-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .lineage-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+      .lineage-card { border: 1px solid #d9e0ea; border-radius: 8px; padding: 12px; background: #fbfcfe; }
+      .lineage-card code, .source-ids code { display: inline-block; margin: 3px 4px 3px 0; padding: 3px 6px; border-radius: 999px; background: #e8f0ff; color: #1f63d6; font-weight: 800; }
+      .lineage-card p { color: #647084; line-height: 1.45; margin-bottom: 8px; }
+      li { margin: 6px 0; line-height: 1.45; }
+      pre { white-space: pre-wrap; background: #111827; color: #eef2ff; padding: 12px; border-radius: 8px; }
+      .signoff-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+      .line { border-bottom: 1px solid #647084; min-height: 36px; }
+      @media (max-width: 860px) { .summary, .case-grid, .signoff-grid, .lineage-grid { grid-template-columns: 1fr; } .case-head { display: block; } .badges { justify-content: flex-start; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="report-header">
+        <p class="eyebrow">QA sign-off report</p>
+        <h1>Demo-ready for approved web flows</h1>
+        <p>Approved critical flows executed successfully with saved evidence.</p>
+      </section>
+      <section class="summary">
+        <div class="tile"><span>Run ID</span><strong>run-2026-05-18T18-23-23-959Z-d506e4</strong></div>
+        <div class="tile"><span>Domain</span><strong>Fintech (Medium)</strong></div>
+        <div class="tile"><span>Approved test cases</span><strong>6</strong></div>
+        <div class="tile decision"><span>Decision</span><strong>Demo-ready for approved web flows</strong></div>
+        <div class="tile"><span>Passed</span><strong>6</strong></div>
+        <div class="tile"><span>Failed</span><strong>0</strong></div>
+        <div class="tile"><span>Generated spec</span><strong>runs/run-2026-05-18T18-23-23-959Z-d506e4/generated-tests.spec.js</strong></div>
+        <div class="tile"><span>Completed</span><strong>2026-05-18T18:24:09.273Z</strong></div>
+      </section>
+      
+      <section class="lineage">
+        <p class="eyebrow">RAG source lineage</p>
+        <h2>Guidelines Used To Generate Output</h2>
+        <div class="lineage-grid">
+    <div class="lineage-card">
+      <h3>Test Case RAG</h3>
+      <code>ADO-TC-001</code>
+      <p><strong>Azure DevOps Test Case Core Fields</strong></p>
+      <p>A user sign-off ready test case should include a stable test case ID, title, requirement or user story mapping, area path or business flow, priority, risk level, preconditions, test data, ordered action steps, expected results, assertions, automation status, reviewer decision, and evidence links after execution.</p>
+      <p>Source: RAG://azure-devops-test-plan-guidelines#core-fields | Score: 0.5429</p>
+    </div>
+  
+    <div class="lineage-card">
+      <h3>Test Case RAG</h3>
+      <code>ADO-TC-003</code>
+      <p><strong>Approval And Traceability</strong></p>
+      <p>Only approved test cases should be promoted to automation. Rejected test cases should remain visible for audit, but they must not be converted to scripts or included in sign-off execution coverage. The final report should show approval status and execution status separately.</p>
+      <p>Source: RAG://azure-devops-test-plan-guidelines#approval-traceability | Score: 0.4265</p>
+    </div>
+  
+    <div class="lineage-card">
+      <h3>Test Case RAG</h3>
+      <code>ADO-TC-004</code>
+      <p><strong>Enterprise Sign-off Evidence</strong></p>
+      <p>A sign-off report should include test-case-level result, execution timestamp, duration, evidence artifact, defect or failure detail, business risk, and sign-off placeholders for QA owner and product owner.</p>
+      <p>Source: RAG://azure-devops-test-plan-guidelines#signoff-evidence | Score: 0.4177</p>
+    </div>
+  
+    <div class="lineage-card">
+      <h3>Test Script RAG</h3>
+      <code>PW-SCRIPT-004</code>
+      <p><strong>Error Handling And Evidence</strong></p>
+      <p>Generated scripts should capture screenshots for each approved test case and allow Playwright to surface failures through assertions. Error output, screenshot paths, duration, and generated spec path should be included in execution evidence for user sign-off.</p>
+      <p>Source: RAG://playwright-automation-guidelines#error-handling-evidence | Score: 0.5365</p>
+    </div>
+  
+    <div class="lineage-card">
+      <h3>Test Script RAG</h3>
+      <code>PW-SCRIPT-002</code>
+      <p><strong>Modular Script Structure</strong></p>
+      <p>Scripts should separate arrange, act, and assert steps. Reusable setup and journey logic should be extracted into helper functions with clear method signatures. Tests should not duplicate long setup sequences when a shared helper can express the same business precondition.</p>
+      <p>Source: RAG://playwright-automation-guidelines#modular-structure | Score: 0.5091</p>
+    </div>
+  
+    <div class="lineage-card">
+      <h3>Test Script RAG</h3>
+      <code>PW-SCRIPT-001</code>
+      <p><strong>Playwright Naming Convention</strong></p>
+      <p>Generated Playwright tests should preserve the approved test case ID in the test title. Helper functions should use verb-object names such as completeFintechJourney, submitKycDetails, runFraudCheck, or captureEvidence. File names should be stable, lowercase, and describe the suite purpose.</p>
+      <p>Source: RAG://playwright-automation-guidelines#naming | Score: 0.4797</p>
+    </div>
+  
+    <div class="lineage-card">
+      <h3>Test Script RAG</h3>
+      <code>PW-SCRIPT-003</code>
+      <p><strong>Locator And Assertion Standards</strong></p>
+      <p>Prefer stable locators such as data-testid, role, label, placeholder, and visible text in that order. Avoid brittle CSS paths when a semantic locator is available. Every test should contain explicit assertions for the approved expected result, not only page navigation.</p>
+      <p>Source: RAG://playwright-automation-guidelines#locators-assertions | Score: 0.402</p>
+    </div>
+  </div>
+      </section>
+      
+    <section class="case">
+      <div class="case-head">
+        <div>
+          <p class="eyebrow">TC-001 | Account creation</p>
+          <h2>Validate account creation and session entry</h2>
+        </div>
+        <div class="badges">
+          <span class="badge approved">Approved</span>
+          <span class="badge passed">Passed</span>
+          <span class="badge neutral">P0 | High</span>
+        </div>
+      </div>
+      <div class="case-grid">
+        <div>
+          <h3>Expected Result</h3>
+          <p>The approved journey completes without blocking errors.</p>
+        </div>
+        <div>
+          <h3>Evidence</h3>
+          <p><a href="/runs/run-2026-05-18T18-23-23-959Z-d506e4/screenshots/TC-001.png">runs/run-2026-05-18T18-23-23-959Z-d506e4/screenshots/TC-001.png</a></p>
+          <p>Duration: 2.9 s</p>
+        </div>
+      </div>
+      <h3>Steps</h3>
+      <ol><li>Navigate to the target web application.</li><li>Confirm the primary journey is visible and interactive.</li><li>Enter valid customer profile details.</li><li>Submit account creation.</li><li>Verify the KYC onboarding step becomes available.</li></ol>
+      <h3>Assertions</h3>
+      <ul><li>Page remains available.</li><li>Expected success or status text is visible.</li></ul>
+      <h3>RAG Sources Used</h3><p class="source-ids"><code>ADO-TC-001</code> <code>ADO-TC-003</code> <code>ADO-TC-004</code></p>
+      
+    </section>
+  
+
+    <section class="case">
+      <div class="case-head">
+        <div>
+          <p class="eyebrow">TC-002 | KYC onboarding</p>
+          <h2>Validate KYC onboarding state progression</h2>
+        </div>
+        <div class="badges">
+          <span class="badge approved">Approved</span>
+          <span class="badge passed">Passed</span>
+          <span class="badge neutral">P0 | Critical</span>
+        </div>
+      </div>
+      <div class="case-grid">
+        <div>
+          <h3>Expected Result</h3>
+          <p>KYC details are accepted and the user sees a clear review or approval state.</p>
+        </div>
+        <div>
+          <h3>Evidence</h3>
+          <p><a href="/runs/run-2026-05-18T18-23-23-959Z-d506e4/screenshots/TC-002.png">runs/run-2026-05-18T18-23-23-959Z-d506e4/screenshots/TC-002.png</a></p>
+          <p>Duration: 4.5 s</p>
+        </div>
+      </div>
+      <h3>Steps</h3>
+      <ol><li>Navigate to the target web application.</li><li>Confirm the primary journey is visible and interactive.</li><li>Complete the account creation step if required.</li><li>Enter valid KYC identity data.</li><li>Submit KYC details.</li><li>Verify the KYC status moves forward with clear messaging.</li></ol>
+      <h3>Assertions</h3>
+      <ul><li>KYC status message is visible.</li><li>Identity form is not left in an error state.</li></ul>
+      <h3>RAG Sources Used</h3><p class="source-ids"><code>ADO-TC-001</code> <code>ADO-TC-003</code> <code>ADO-TC-004</code></p>
+      
+    </section>
+  
+
+    <section class="case">
+      <div class="case-head">
+        <div>
+          <p class="eyebrow">TC-003 | Payment and wallet</p>
+          <h2>Validate payment success and wallet balance update</h2>
+        </div>
+        <div class="badges">
+          <span class="badge approved">Approved</span>
+          <span class="badge passed">Passed</span>
+          <span class="badge neutral">P0 | Critical</span>
+        </div>
+      </div>
+      <div class="case-grid">
+        <div>
+          <h3>Expected Result</h3>
+          <p>Payment completes once and wallet balance reflects the expected amount.</p>
+        </div>
+        <div>
+          <h3>Evidence</h3>
+          <p><a href="/runs/run-2026-05-18T18-23-23-959Z-d506e4/screenshots/TC-003.png">runs/run-2026-05-18T18-23-23-959Z-d506e4/screenshots/TC-003.png</a></p>
+          <p>Duration: 3.9 s</p>
+        </div>
+      </div>
+      <h3>Steps</h3>
+      <ol><li>Navigate to the target web application.</li><li>Confirm the primary journey is visible and interactive.</li><li>Complete account and KYC prerequisites if required.</li><li>Enter payment amount and payee.</li><li>Run fraud/risk check.</li><li>Submit payment.</li><li>Verify wallet balance and transaction status update.</li></ol>
+      <h3>Assertions</h3>
+      <ul><li>Payment status is successful.</li><li>Wallet balance is updated.</li><li>No duplicate payment confirmation appears.</li></ul>
+      <h3>RAG Sources Used</h3><p class="source-ids"><code>ADO-TC-001</code> <code>ADO-TC-003</code> <code>ADO-TC-004</code></p>
+      
+    </section>
+  
+
+    <section class="case">
+      <div class="case-head">
+        <div>
+          <p class="eyebrow">TC-004 | Payment resiliency</p>
+          <h2>Validate failed or duplicate payment handling</h2>
+        </div>
+        <div class="badges">
+          <span class="badge approved">Approved</span>
+          <span class="badge passed">Passed</span>
+          <span class="badge neutral">P1 | Critical</span>
+        </div>
+      </div>
+      <div class="case-grid">
+        <div>
+          <h3>Expected Result</h3>
+          <p>The approved journey completes without blocking errors.</p>
+        </div>
+        <div>
+          <h3>Evidence</h3>
+          <p><a href="/runs/run-2026-05-18T18-23-23-959Z-d506e4/screenshots/TC-004.png">runs/run-2026-05-18T18-23-23-959Z-d506e4/screenshots/TC-004.png</a></p>
+          <p>Duration: 4.1 s</p>
+        </div>
+      </div>
+      <h3>Steps</h3>
+      <ol><li>Navigate to the target web application.</li><li>Confirm the primary journey is visible and interactive.</li><li>Complete account and KYC prerequisites if required.</li><li>Enter payment amount and payee.</li><li>Run fraud/risk check.</li><li>Submit payment.</li><li>Verify wallet balance and transaction status update.</li></ol>
+      <h3>Assertions</h3>
+      <ul><li>Payment status is successful.</li><li>Wallet balance is updated.</li><li>No duplicate payment confirmation appears.</li></ul>
+      <h3>RAG Sources Used</h3><p class="source-ids"><code>ADO-TC-001</code> <code>ADO-TC-003</code> <code>ADO-TC-004</code></p>
+      
+    </section>
+  
+
+    <section class="case">
+      <div class="case-head">
+        <div>
+          <p class="eyebrow">TC-005 | Refund</p>
+          <h2>Validate refund initiation and status visibility</h2>
+        </div>
+        <div class="badges">
+          <span class="badge approved">Approved</span>
+          <span class="badge passed">Passed</span>
+          <span class="badge neutral">P1 | High</span>
+        </div>
+      </div>
+      <div class="case-grid">
+        <div>
+          <h3>Expected Result</h3>
+          <p>Refund can be initiated and the status is visible to the user.</p>
+        </div>
+        <div>
+          <h3>Evidence</h3>
+          <p><a href="/runs/run-2026-05-18T18-23-23-959Z-d506e4/screenshots/TC-005.png">runs/run-2026-05-18T18-23-23-959Z-d506e4/screenshots/TC-005.png</a></p>
+          <p>Duration: 4.0 s</p>
+        </div>
+      </div>
+      <h3>Steps</h3>
+      <ol><li>Navigate to the target web application.</li><li>Confirm the primary journey is visible and interactive.</li><li>Complete a successful payment prerequisite if required.</li><li>Trigger refund for the latest eligible transaction.</li><li>Verify refund status and wallet timeline update.</li></ol>
+      <h3>Assertions</h3>
+      <ul><li>Refund status is visible.</li><li>Refund notification is visible.</li></ul>
+      <h3>RAG Sources Used</h3><p class="source-ids"><code>ADO-TC-001</code> <code>ADO-TC-003</code> <code>ADO-TC-004</code></p>
+      
+    </section>
+  
+
+    <section class="case">
+      <div class="case-head">
+        <div>
+          <p class="eyebrow">TC-006 | Fraud check</p>
+          <h2>Validate fraud decision visibility in payment flow</h2>
+        </div>
+        <div class="badges">
+          <span class="badge approved">Approved</span>
+          <span class="badge passed">Passed</span>
+          <span class="badge neutral">P1 | High</span>
+        </div>
+      </div>
+      <div class="case-grid">
+        <div>
+          <h3>Expected Result</h3>
+          <p>The approved journey completes without blocking errors.</p>
+        </div>
+        <div>
+          <h3>Evidence</h3>
+          <p><a href="/runs/run-2026-05-18T18-23-23-959Z-d506e4/screenshots/TC-006.png">runs/run-2026-05-18T18-23-23-959Z-d506e4/screenshots/TC-006.png</a></p>
+          <p>Duration: 4.2 s</p>
+        </div>
+      </div>
+      <h3>Steps</h3>
+      <ol><li>Navigate to the target web application.</li><li>Confirm the primary journey is visible and interactive.</li><li>Complete account and KYC prerequisites if required.</li><li>Enter payment amount and payee.</li><li>Run fraud/risk check.</li><li>Submit payment.</li><li>Verify wallet balance and transaction status update.</li></ol>
+      <h3>Assertions</h3>
+      <ul><li>Payment status is successful.</li><li>Wallet balance is updated.</li><li>No duplicate payment confirmation appears.</li></ul>
+      <h3>RAG Sources Used</h3><p class="source-ids"><code>ADO-TC-001</code> <code>ADO-TC-003</code> <code>ADO-TC-004</code></p>
+      
+    </section>
+  
+      <section class="signoff">
+        <p class="eyebrow">User sign-off</p>
+        <h2>Approval</h2>
+        <div class="signoff-grid">
+          <div><h3>QA Owner</h3><div class="line"></div></div>
+          <div><h3>Product Owner</h3><div class="line"></div></div>
+          <div><h3>Date / Decision</h3><div class="line"></div></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

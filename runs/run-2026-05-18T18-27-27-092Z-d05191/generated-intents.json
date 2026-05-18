@@ -1,0 +1,114 @@
+{
+  "runId": "run-2026-05-18T18-27-27-092Z-d05191",
+  "url": "https://www.apollo247.com/",
+  "source": "fallback (qa-intents: LLM unavailable)",
+  "domain": {
+    "name": "Healthcare",
+    "confidence": "High",
+    "signals": [
+      "patient",
+      "doctor",
+      "medicine",
+      "lab"
+    ],
+    "rationale": "Detected healthcare signals from the target URL and release intent."
+  },
+  "intents": [
+    {
+      "id": "INT-P0-001",
+      "title": "Validate patient registration and profile creation",
+      "priority": "P0",
+      "riskLevel": "Critical",
+      "flow": "Patient registration",
+      "rationale": "Patient identity and demographics must be captured correctly before clinical workflows can proceed.",
+      "acceptanceCriteria": [
+        "Patient can submit required demographic details.",
+        "Profile is created without exposing sensitive health data."
+      ],
+      "suggestedAutomation": "web",
+      "releaseGate": "Functional",
+      "reviewerStatus": "pending"
+    },
+    {
+      "id": "INT-P0-002",
+      "title": "Validate appointment booking and confirmation",
+      "priority": "P0",
+      "riskLevel": "Critical",
+      "flow": "Appointment booking",
+      "rationale": "Appointment scheduling is the core healthcare access flow and a release blocker.",
+      "acceptanceCriteria": [
+        "Patient can select provider, date, and slot.",
+        "Appointment confirmation is shown with correct details."
+      ],
+      "suggestedAutomation": "web",
+      "releaseGate": "Functional",
+      "reviewerStatus": "pending"
+    },
+    {
+      "id": "INT-P1-003",
+      "title": "Validate medical record access controls",
+      "priority": "P1",
+      "riskLevel": "High",
+      "flow": "Medical records",
+      "rationale": "Protected health information needs clear access boundaries and audit-friendly behavior.",
+      "acceptanceCriteria": [
+        "Authorized user can view records.",
+        "Unauthorized or missing context does not expose records."
+      ],
+      "suggestedAutomation": "web",
+      "releaseGate": "Security/Privacy",
+      "reviewerStatus": "pending"
+    },
+    {
+      "id": "INT-P1-004",
+      "title": "Validate prescription or care instruction visibility",
+      "priority": "P1",
+      "riskLevel": "High",
+      "flow": "Prescription",
+      "rationale": "Medication and care instructions have direct patient-safety impact.",
+      "acceptanceCriteria": [
+        "Prescription details are visible after the correct workflow.",
+        "Instructions are readable and tied to the right patient."
+      ],
+      "suggestedAutomation": "web",
+      "releaseGate": "Functional",
+      "reviewerStatus": "pending"
+    },
+    {
+      "id": "INT-P1-005",
+      "title": "Validate consent and privacy messaging",
+      "priority": "P1",
+      "riskLevel": "High",
+      "flow": "Consent",
+      "rationale": "Consent and privacy clarity are key governance controls in healthcare apps.",
+      "acceptanceCriteria": [
+        "Consent language is presented before sensitive action.",
+        "User can accept or decline with clear status."
+      ],
+      "suggestedAutomation": "web",
+      "releaseGate": "Compliance",
+      "reviewerStatus": "pending"
+    },
+    {
+      "id": "INT-P2-006",
+      "title": "Validate accessibility for patient onboarding",
+      "priority": "P2",
+      "riskLevel": "Medium",
+      "flow": "Accessibility",
+      "rationale": "Healthcare journeys must be usable by patients with varied accessibility needs.",
+      "acceptanceCriteria": [
+        "Critical fields have labels.",
+        "Primary journey supports keyboard focus."
+      ],
+      "suggestedAutomation": "web-a11y",
+      "releaseGate": "Accessibility",
+      "reviewerStatus": "pending"
+    }
+  ],
+  "reasoningTrace": [
+    "Domain Agent detected Healthcare with High confidence.",
+    "Signals: patient, doctor, medicine, lab.",
+    "Risk Intent Agent generated 6 healthcare-aware QA intents.",
+    "Used deterministic fallback templates so the demo remains stable."
+  ]
+}

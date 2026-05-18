@@ -1,0 +1,62 @@
+{
+  "runId": "run-2026-05-18T18-27-27-092Z-d05191",
+  "status": "pending-run-approval",
+  "approvedTestCount": 6,
+  "ragStatus": {
+    "backend": "faiss-node",
+    "index": "IndexFlatIP",
+    "dimensions": 96,
+    "documentCount": 9,
+    "source": "rag/guidelines.json"
+  },
+  "sourceLineage": {
+    "kind": "test-script",
+    "backend": "faiss-node",
+    "index": "IndexFlatIP",
+    "sourceFile": "rag/guidelines.json",
+    "retrievedAt": "2026-05-18T18:28:49.918Z",
+    "chunkCount": 4,
+    "chunks": [
+      {
+        "id": "PW-SCRIPT-004",
+        "type": "test-script",
+        "title": "Error Handling And Evidence",
+        "section": "Automation Standards",
+        "source": "RAG://playwright-automation-guidelines#error-handling-evidence",
+        "score": 0.5364,
+        "excerpt": "Generated scripts should capture screenshots for each approved test case and allow Playwright to surface failures through assertions. Error output, screenshot paths, duration, and generated spec path should be included in execution evidence for user sign-off."
+      },
+      {
+        "id": "PW-SCRIPT-002",
+        "type": "test-script",
+        "title": "Modular Script Structure",
+        "section": "Automation Standards",
+        "source": "RAG://playwright-automation-guidelines#modular-structure",
+        "score": 0.5181,
+        "excerpt": "Scripts should separate arrange, act, and assert steps. Reusable setup and journey logic should be extracted into helper functions with clear method signatures. Tests should not duplicate long setup sequences when a shared helper can express the same business precondition."
+      },
+      {
+        "id": "PW-SCRIPT-001",
+        "type": "test-script",
+        "title": "Playwright Naming Convention",
+        "section": "Automation Standards",
+        "source": "RAG://playwright-automation-guidelines#naming",
+        "score": 0.46,
+        "excerpt": "Generated Playwright tests should preserve the approved test case ID in the test title. Helper functions should use verb-object names such as completeFintechJourney, submitKycDetails, runFraudCheck, or captureEvidence. File names should be stable, lowercase, and describe the suite purpose."
+      },
+      {
+        "id": "PW-SCRIPT-003",
+        "type": "test-script",
+        "title": "Locator And Assertion Standards",
+        "section": "Automation Standards",
+        "source": "RAG://playwright-automation-guidelines#locators-assertions",
+        "score": 0.3919,
+        "excerpt": "Prefer stable locators such as data-testid, role, label, placeholder, and visible text in that order. Avoid brittle CSS paths when a semantic locator is available. Every test should contain explicit assertions for the approved expected result, not only page navigation."
+      }
+    ]
+  },
+  "generatedSpecPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/generated-tests.spec.js",
+  "approvedTestCasesPath": "runs/run-2026-05-18T18-27-27-092Z-d05191/approved-test-cases.json",
+  "scriptPreview": "// RAG PW-SCRIPT-004: Error Handling And Evidence (RAG://playwright-automation-guidelines#error-handling-evidence)\n// RAG PW-SCRIPT-002: Modular Script Structure (RAG://playwright-automation-guidelines#modular-structure)\n// RAG PW-SCRIPT-001: Playwright Naming Convention (RAG://playwright-automation-guidelines#naming)\n// RAG PW-SCRIPT-003: Locator And Assertion Standards (RAG://playwright-automation-guidelines#locators-assertions)\nconst { test, expect } = require('@playwright/test');\nconst path = require('path');\n\nconst targetUrl = \"https://www.apollo247.com/\";\nconst screenshotDir = \"E:\\\\AI-Projects\\\\hackathon-may-2926\\\\intent-driven-testing-platform\\\\runs\\\\run-2026-05-18T18-27-27-092Z-d05191\\\\screenshots\";\n\n\ntest(\"TC-001 Validate patient registration and profile creation\", async ({ page }) => {\n  await page.goto(targetUrl, { waitUntil: 'domcontentloaded' });\n  await expect(page.locator('body')).toBeVisible();\n  await expect(page).toHaveTitle(/.+/);\n  await page.screenshot({ path: path.join(screenshotDir, \"TC-001.png\"), fullPage: true });\n});\n\ntest(\"TC-002 Validate appointment booking and confirmation\", async ({ page }) => {\n  await page.goto(targetUrl, { waitUntil: 'domcontentloaded' });\n  await expect(page.locator('body')).toBeVisible();\n  await expect(page).toHaveTitle(/.+/);\n  await page.screenshot({ path: path.join(screenshotDir, \"TC-002.png\"), fullPage: true });\n});\n\ntest(\"TC-003 Validate medical record access controls\", async ({ page }) => {\n  await page.goto(targetUrl, { waitUntil: 'domcontentloaded' });\n  await expect(page.locator('body')).toBeVisible();\n  await expect(page).toHaveTitle(/.+/);\n  await page.screenshot({ path: path.join(screenshotDir, \"TC-003.png\"), fullPage: true });\n});\n\ntest(\"TC-004 Validate prescription or care instruction visibility\", async ({ page }) => {\n  await page.goto(targetUrl, { waitUntil: 'domcontentloaded' });\n  await expect(page.locator('body')).toBeVisible();\n  await expect(page).toHaveTitle(/.+/);\n  await page.screenshot({ path: path.join(screenshotDir, \"TC-004.png\"), fullPage: true });\n});\n\ntest(\"TC-005 Validate consent and privacy messaging\", async ({ page }) => {\n  await page.goto(targetUrl, { waitUntil: 'domcontentloaded' });\n  await expect(page.locator('body')).toBeVisible();",
+  "generatedAt": "2026-05-18T18:28:49.922Z"
+}

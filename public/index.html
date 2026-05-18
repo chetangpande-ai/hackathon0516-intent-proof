@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IntentProof</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <section class="auth-shell" id="auth-shell" aria-label="Sign in">
+      <div class="auth-brand">
+        <p class="eyebrow">Enterprise QA cockpit</p>
+        <h1>IntentProof</h1>
+        <p>Intent-driven. Human-approved. Evidence-backed web test authoring.</p>
+        <div class="auth-proof-grid" aria-label="Demo readiness signals">
+          <div>
+            <span>RAG</span>
+            <strong>FAISS grounded</strong>
+          </div>
+          <div>
+            <span>HITL</span>
+            <strong>Approval gated</strong>
+          </div>
+          <div>
+            <span>Evidence</span>
+            <strong>Sign-off ready</strong>
+          </div>
+        </div>
+        <div class="auth-preview" aria-label="Release readiness preview">
+          <div class="preview-head">
+            <span>Board demo run</span>
+            <strong>Demo-ready for approved web flows</strong>
+          </div>
+          <div class="preview-flow">
+            <span class="done">Intent</span>
+            <span class="done">Observe</span>
+            <span class="done">Tests</span>
+            <span class="done">Scripts</span>
+            <span class="current">Evidence</span>
+          </div>
+          <div class="preview-grid">
+            <div><span>Domain</span><strong>Fintech</strong></div>
+            <div><span>Approved tests</span><strong>2</strong></div>
+            <div><span>Sources</span><strong>ADO + PW</strong></div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="auth-panel">
+        <div class="auth-panel-head">
+          <p class="eyebrow">Secure access</p>
+          <h2>Sign in to continue</h2>
+          <p>Mock SSO is enabled for the demo workspace.</p>
+        </div>
+        <div class="sso-stack">
+          <button type="button" class="sso-button" data-provider="Microsoft Entra ID">
+            <span class="sso-mark microsoft">M</span>
+            <span>Continue with Microsoft Entra ID</span>
+          </button>
+          <button type="button" class="sso-button" data-provider="Google Workspace">
+            <span class="sso-mark google">G</span>
+            <span>Continue with Google Workspace</span>
+          </button>
+          <button type="button" class="sso-button" data-provider="Okta">
+            <span class="sso-mark okta">O</span>
+            <span>Continue with Okta</span>
+          </button>
+        </div>
+        <button type="button" class="demo-signin" id="demo-signin">Use demo QA lead</button>
+        <div class="auth-meta">
+          <span>Tenant: Contoso QA</span>
+          <span>Role: Release QA Lead</span>
+        </div>
+      </aside>
+    </section>
+
+    <main class="app-shell is-hidden" id="app-shell">
+      <section class="topbar" aria-label="Run setup">
+        <div>
+          <p class="eyebrow">AI Agent Hackathon MVP</p>
+          <h1>IntentProof</h1>
+          <p class="product-tagline">Intent-driven. Human-approved. Evidence-backed web test authoring.</p>
+        </div>
+        <div class="topbar-actions">
+          <div class="run-pill" id="user-pill">Not signed in</div>
+          <button type="button" id="sign-out" class="ghost-button">Sign out</button>
+          <div class="run-pill" id="run-pill">No active run</div>
+        </div>
+      </section>
+
+      <section class="command-center" aria-label="Release readiness command center">
+        <div class="command-copy">
+          <p class="eyebrow">Release command center</p>
+          <h2 id="decision-headline">Ready to generate release coverage</h2>
+          <p id="next-action">Enter a target URL and release intent, then generate QA intents.</p>
+        </div>
+        <div class="metric-grid" aria-label="Run summary">
+          <div class="metric-tile">
+            <span>Target</span>
+            <strong id="target-metric">Demo fintech app</strong>
+          </div>
+          <div class="metric-tile">
+            <span>Detected domain</span>
+            <strong id="domain-metric">Not detected</strong>
+          </div>
+          <div class="metric-tile">
+            <span>Approved intents</span>
+            <strong id="approved-intents-metric">0</strong>
+          </div>
+          <div class="metric-tile">
+            <span>Approved tests</span>
+            <strong id="approved-tests-metric">0</strong>
+          </div>
+          <div class="metric-tile">
+            <span>Decision</span>
+            <strong id="decision-metric">Waiting</strong>
+          </div>
+        </div>
+        <ol class="activity-timeline" id="activity-timeline" aria-label="Agent activity timeline">
+          <li data-stage="intent" class="current">Intent</li>
+          <li data-stage="observe">Observe</li>
+          <li data-stage="tests">Tests</li>
+          <li data-stage="scripts">Scripts</li>
+          <li data-stage="evidence">Evidence</li>
+        </ol>
+      </section>
+
+      <section class="workspace">
+        <aside class="control-panel">
+          <label for="target-url">Target URL</label>
+          <input id="target-url" type="url" autocomplete="off">
+          <div class="target-suggestions" aria-label="Suggested target URLs">
+            <button type="button" class="suggestion-chip active" data-target-key="demo">Demo fintech</button>
+            <button type="button" class="suggestion-chip" data-target-key="hdfc">HDFC home loan</button>
+            <button type="button" class="suggestion-chip" data-target-key="practo">Practo</button>
+            <button type="button" class="suggestion-chip" data-target-key="apollo">Apollo 24|7</button>
+            <button type="button" class="suggestion-chip" data-target-key="irctc">IRCTC</button>
+          </div>
+          <p class="field-help">External sites are best for intent, observation, and smoke demos. Use the bundled demo for reliable execution.</p>
+
+          <label for="business-intent">Release intent</label>
+          <textarea id="business-intent" rows="6">Validate critical onboarding, primary business workflow, status updates, negative paths, and release readiness</textarea>
+
+          <button id="generate-intents" class="primary">Generate QA Intents</button>
+
+          <div class="status-stack" aria-live="polite">
+            <div class="status-row">
+              <span>Intent approval</span>
+              <strong id="intent-count">0</strong>
+            </div>
+            <div class="status-row">
+              <span>Test approval</span>
+              <strong id="test-count">0</strong>
+            </div>
+            <div class="status-row">
+              <span>Execution</span>
+              <strong id="execution-status">Waiting</strong>
+            </div>
+          </div>
+        </aside>
+
+        <section class="main-panel">
+          <nav class="stepper" aria-label="Agent workflow">
+            <button type="button" class="step active" data-step="1" data-tab="intent">Intent</button>
+            <button type="button" class="step" data-step="2" data-tab="observe">Observe</button>
+            <button type="button" class="step" data-step="3" data-tab="tests">Tests</button>
+            <button type="button" class="step" data-step="4" data-tab="scripts">Scripts</button>
+            <button type="button" class="step" data-step="5" data-tab="evidence">Evidence</button>
+          </nav>
+
+          <section class="panel-block tab-panel active" id="intent-section" data-panel="intent">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Human-in-the-loop</p>
+                <h2>Risk-ranked QA intents</h2>
+              </div>
+              <button id="observe-app" disabled>Observe Approved Intents</button>
+            </div>
+            <div id="intents-list" class="item-list empty-state">Generated QA intents will appear here.</div>
+          </section>
+
+          <section class="panel-block tab-panel" id="observe-section" data-panel="observe">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Playwright observation</p>
+                <h2>Application evidence</h2>
+              </div>
+              <button id="generate-tests" disabled>Generate Test Cases</button>
+            </div>
+            <div id="observation-panel" class="evidence-grid empty-state">Observation details will appear here.</div>
+          </section>
+
+          <section class="panel-block tab-panel" id="tests-section" data-panel="tests">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Enterprise review</p>
+                <h2>Generated test cases</h2>
+              </div>
+              <button id="generate-scripts" disabled>Generate Scripts</button>
+            </div>
+            <div id="test-cases-list" class="item-list empty-state">Generated test cases will appear here.</div>
+          </section>
+
+          <section class="panel-block tab-panel" id="scripts-section" data-panel="scripts">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Automation approval</p>
+                <h2>Generated Playwright scripts</h2>
+              </div>
+              <button id="execute-tests" disabled>Approve & Run Scripts</button>
+            </div>
+            <div id="script-panel" class="evidence-grid empty-state">Approved test cases will be converted into scripts here.</div>
+          </section>
+
+          <section class="panel-block tab-panel" id="evidence-section" data-panel="evidence">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Release evidence</p>
+                <h2>Execution result</h2>
+              </div>
+            </div>
+            <div id="evidence-panel" class="evidence-grid empty-state">Pass/fail evidence will appear here.</div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <template id="intent-template">
+      <article class="review-item">
+        <div class="review-topline">
+          <label class="check-line">
+            <input type="checkbox" class="intent-approved" checked>
+            <span class="approval-action">Approve</span>
+            <span class="item-title"></span>
+          </label>
+          <div class="review-actions">
+            <span class="approval-status approved">Approved</span>
+            <select class="priority-select" aria-label="Priority">
+              <option>P0</option>
+              <option>P1</option>
+              <option>P2</option>
+            </select>
+          </div>
+        </div>
+        <p class="item-meta"></p>
+        <p class="item-rationale"></p>
+        <ul class="criteria-list"></ul>
+      </article>
+    </template>
+
+    <template id="test-template">
+      <article class="review-item">
+        <div class="review-topline">
+          <label class="check-line">
+            <input type="checkbox" class="test-approved" checked>
+            <span class="approval-action">Approve</span>
+            <span class="item-title"></span>
+          </label>
+          <div class="review-actions">
+            <span class="approval-status approved">Approved</span>
+            <span class="risk-badge"></span>
+          </div>
+        </div>
+        <p class="item-meta"></p>
+        <details>
+          <summary>Steps and assertions</summary>
+          <ol class="steps-list"></ol>
+          <p class="expected-result"></p>
+          <ul class="criteria-list"></ul>
+        </details>
+      </article>
+    </template>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

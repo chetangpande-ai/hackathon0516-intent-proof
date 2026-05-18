@@ -1,0 +1,233 @@
+{
+  "runId": "run-2026-05-18T18-27-27-092Z-d05191",
+  "approvedTestCases": [
+    {
+      "id": "TC-001",
+      "title": "Validate patient registration and profile creation",
+      "businessIntentId": "INT-P0-001",
+      "businessFlow": "Patient registration",
+      "priority": "P0",
+      "riskLevel": "Critical",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Interact with observed action \"1\".",
+        "Verify the resulting state matches the approved QA intent."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "automationStatus": "generated",
+      "reviewerStatus": "approved",
+      "evidenceLink": null,
+      "rationale": "Patient identity and demographics must be captured correctly before clinical workflows can proceed.",
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-004",
+        "ADO-TC-003"
+      ]
+    },
+    {
+      "id": "TC-002",
+      "title": "Validate appointment booking and confirmation",
+      "businessIntentId": "INT-P0-002",
+      "businessFlow": "Appointment booking",
+      "priority": "P0",
+      "riskLevel": "Critical",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Interact with observed action \"1\".",
+        "Verify the resulting state matches the approved QA intent."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "automationStatus": "generated",
+      "reviewerStatus": "approved",
+      "evidenceLink": null,
+      "rationale": "Appointment scheduling is the core healthcare access flow and a release blocker.",
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-004",
+        "ADO-TC-003"
+      ]
+    },
+    {
+      "id": "TC-003",
+      "title": "Validate medical record access controls",
+      "businessIntentId": "INT-P1-003",
+      "businessFlow": "Medical records",
+      "priority": "P1",
+      "riskLevel": "High",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Interact with observed action \"1\".",
+        "Verify the resulting state matches the approved QA intent."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "automationStatus": "generated",
+      "reviewerStatus": "approved",
+      "evidenceLink": null,
+      "rationale": "Protected health information needs clear access boundaries and audit-friendly behavior.",
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-004",
+        "ADO-TC-003"
+      ]
+    },
+    {
+      "id": "TC-004",
+      "title": "Validate prescription or care instruction visibility",
+      "businessIntentId": "INT-P1-004",
+      "businessFlow": "Prescription",
+      "priority": "P1",
+      "riskLevel": "High",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Interact with observed action \"1\".",
+        "Verify the resulting state matches the approved QA intent."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "automationStatus": "generated",
+      "reviewerStatus": "approved",
+      "evidenceLink": null,
+      "rationale": "Medication and care instructions have direct patient-safety impact.",
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-004",
+        "ADO-TC-003"
+      ]
+    },
+    {
+      "id": "TC-005",
+      "title": "Validate consent and privacy messaging",
+      "businessIntentId": "INT-P1-005",
+      "businessFlow": "Consent",
+      "priority": "P1",
+      "riskLevel": "High",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Interact with observed action \"1\".",
+        "Verify the resulting state matches the approved QA intent."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "automationStatus": "generated",
+      "reviewerStatus": "approved",
+      "evidenceLink": null,
+      "rationale": "Consent and privacy clarity are key governance controls in healthcare apps.",
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-004",
+        "ADO-TC-003"
+      ]
+    },
+    {
+      "id": "TC-006",
+      "title": "Validate accessibility for patient onboarding",
+      "businessIntentId": "INT-P2-006",
+      "businessFlow": "Accessibility",
+      "priority": "P2",
+      "riskLevel": "Medium",
+      "preconditions": [
+        "Target web application is reachable.",
+        "QA user has valid demo test data.",
+        "No production money movement is used during execution."
+      ],
+      "testData": {
+        "fullName": "Asha Mehta",
+        "email": "asha.qa@example.com",
+        "phone": "9876543210"
+      },
+      "steps": [
+        "Navigate to the target web application.",
+        "Confirm the primary journey is visible and interactive.",
+        "Interact with observed action \"1\".",
+        "Verify the resulting state matches the approved QA intent."
+      ],
+      "expectedResult": "The approved journey completes without blocking errors.",
+      "assertions": [
+        "Page remains available.",
+        "Expected success or status text is visible."
+      ],
+      "automationStatus": "generated",
+      "reviewerStatus": "approved",
+      "evidenceLink": null,
+      "rationale": "Healthcare journeys must be usable by patients with varied accessibility needs.",
+      "sourceLineage": [
+        "ADO-TC-001",
+        "ADO-TC-004",
+        "ADO-TC-003"
+      ]
+    }
+  ]
+}

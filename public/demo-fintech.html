@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FinTrust Launch Demo</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="demo-body">
+    <main class="demo-shell">
+      <section class="demo-header">
+        <div>
+          <p class="eyebrow">Fintech demo app</p>
+          <h1>FinTrust Wallet</h1>
+        </div>
+        <div class="demo-status" data-testid="release-status">Demo ready</div>
+      </section>
+
+      <section class="demo-grid">
+        <form class="demo-panel active" data-testid="account-panel">
+          <div class="panel-title">
+            <span>1</span>
+            <h2>Create Account</h2>
+          </div>
+          <label for="full-name">Full name</label>
+          <input id="full-name" data-testid="full-name" name="full-name" required>
+          <label for="email">Email</label>
+          <input id="email" data-testid="email" name="email" type="email" required>
+          <label for="phone">Phone</label>
+          <input id="phone" data-testid="phone" name="phone" inputmode="numeric" required>
+          <button type="button" data-testid="account-continue">Continue to KYC</button>
+          <p class="panel-note" data-testid="account-status">Awaiting customer details</p>
+        </form>
+
+        <form class="demo-panel locked" data-testid="kyc-panel">
+          <div class="panel-title">
+            <span>2</span>
+            <h2>KYC Review</h2>
+          </div>
+          <label for="pan">PAN</label>
+          <input id="pan" data-testid="pan" name="pan" maxlength="10" required>
+          <label for="identity-id">Identity reference</label>
+          <input id="identity-id" data-testid="identity-id" name="identity-id" required>
+          <button type="button" data-testid="kyc-continue">Submit KYC</button>
+          <p class="panel-note" data-testid="kyc-status">Locked until account is created</p>
+        </form>
+
+        <form class="demo-panel locked" data-testid="payment-panel">
+          <div class="panel-title">
+            <span>3</span>
+            <h2>Payment</h2>
+          </div>
+          <label for="amount">Amount</label>
+          <input id="amount" data-testid="amount" name="amount" inputmode="numeric" required>
+          <label for="payee">Payee</label>
+          <input id="payee" data-testid="payee" name="payee" required>
+          <div class="button-row">
+            <button type="button" data-testid="fraud-check">Fraud Check</button>
+            <button type="button" data-testid="payment-submit">Pay</button>
+          </div>
+          <p class="panel-note" data-testid="fraud-status">Fraud model waiting in shadow mode</p>
+          <p class="panel-note" data-testid="payment-status">No payment submitted</p>
+        </form>
+
+        <section class="demo-panel wallet-panel" data-testid="wallet-panel">
+          <div class="panel-title">
+            <span>4</span>
+            <h2>Wallet Evidence</h2>
+          </div>
+          <div class="balance-block">
+            <span>Wallet balance</span>
+            <strong data-testid="wallet-balance">₹10,000</strong>
+          </div>
+          <button type="button" data-testid="refund-button">Initiate Refund</button>
+          <p class="panel-note" data-testid="refund-status">Refund not started</p>
+          <ul class="notification-list" data-testid="notification-list">
+            <li>Account timeline ready</li>
+          </ul>
+        </section>
+      </section>
+    </main>
+
+    <script src="/demo-fintech.js"></script>
+  </body>
+</html>
