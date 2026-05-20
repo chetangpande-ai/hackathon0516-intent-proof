@@ -243,6 +243,14 @@ Run the basic project checks:
 npm test
 ```
 
+## Screenshots
+
+Live screenshots were captured from a local run and saved under `docs/screenshots`.
+
+- Demo UI: ![Index screenshot](docs/screenshots/index.png)
+- Bundled fintech demo: ![Fintech demo screenshot](docs/screenshots/demo-fintech.png)
+
+
 You can also run the full demo manually through the browser as described in the Quick Demo Flow.
 
 ## Troubleshooting
