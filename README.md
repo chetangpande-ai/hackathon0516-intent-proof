@@ -114,6 +114,22 @@ A successful run shows:
 Demo-ready for approved web flows
 ```
 
+**Flow Diagram**
+
+```mermaid
+flowchart TD
+   A[User: provide URL & release intent] --> B[Domain + Intent Agents]
+   B --> C[Generate risk-ranked QA intents (LLM or fallback)]
+   C --> D[Human reviews & approves intents]
+   D --> E[Playwright observe: screenshots & DOM snapshot]
+   E --> F[Generate enterprise test cases (RAG + templates)]
+   F --> G[Human approves test cases]
+   G --> H[Generate Playwright scripts]
+   H --> I[Human approves & execute scripts]
+   I --> J[Run Playwright → test results, evidence & sign-off report]
+   J --> K[Artifacts saved to runs/<runId>/]
+```
+
 ## External URL Demo
 
 You can replace the target URL with a public test site.
